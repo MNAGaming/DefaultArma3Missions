@@ -1,0 +1,125 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_m01,G,$STR_A3_A_m01_Mission_Name,$STR_A3_A_m01_Overview)
+
+dev = "Zipper";
+
+class CfgDebriefing
+{
+	class A_hub01_1
+	{
+		description = $STR_A3_A_m01_Debriefing_A_hub01_1_description;
+	};
+
+	class A_hub01_2
+	{
+		subtitle = $STR_A3_A_m01_Debriefing_A_hub01_2_title;
+		description = $STR_A3_A_m01_Debriefing_A_hub01_2_description;
+	};
+
+	class A_m01_1
+	{
+		subtitle = $STR_A3_A_m01_Debriefing_A_m01_1_subtitle;
+	};
+
+	class A_m01_2
+	{
+		subtitle = $STR_A3_A_m01_Debriefing_A_m01_2_subtitle;
+	};
+
+	class A_m01_3
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_2_subtitle;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			//standard rifles 6.5mm
+			{"arifle_mk20_pointer_f",		"30rnd_556x45_stanag", 			{8,9} },
+			{"arifle_mk20c_f",			"30rnd_556x45_stanag", 			{8,9} },
+			{"arifle_mk20_f",			"30rnd_556x45_stanag", 			{8,9} },
+			{"arifle_trg20_f",			"30rnd_556x45_stanag", 			{8,9} },
+			{"arifle_trg21_f",			"30rnd_556x45_stanag", 			{8,9} },
+			{"arifle_mxc_f",			"30rnd_65x39_caseless_mag", 		{5,6} },
+			{"arifle_mx_f",				"30rnd_65x39_caseless_mag", 		{5,6} }
+		};
+
+		handgun[] =
+		{
+			{"hgun_p07_f", "16rnd_9x21_mag", 2}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"nvgoggles"
+		};
+
+		add[] =
+		{
+			{"magazine", "smokeshell"},
+			{"backpack", "b_assaultpack_kerry"},
+			{"item", "toolkit"},
+			{"item", "minedetector"},
+			{"magazine", "democharge_remote_mag"},
+			{"magazine", "apersboundingmine_range_mag", 3}
+		};
+
+		required[] =
+		{
+			{"backpack*", "b_assaultpack_kerry"},
+			{"pweapon*", "arifle_mx_f"},
+			{"vest*", "v_platecarrier_kerry"},
+			{"item", "minedetector"},
+			{"magazine", "democharge_remote_mag"},
+			{"magazine", "apersboundingmine_range_mag", 3},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Commanding Officer
+	class BIS_BLU1:OtherSquad
+	{
+		identity = "EPA_B_Conway";
+		appearance = "B_Soldier_TL_F";
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_MX_GL_F",
+				"30Rnd_65x39_caseless_mag", 6,
+				"30Rnd_65x39_caseless_mag_Tracer", 2,
+				"1Rnd_HE_Grenade_shell", 6,
+				"1Rnd_Smoke_Grenade_shell",
+				"1Rnd_SmokeBlue_Grenade_shell",
+				"1Rnd_SmokeGreen_Grenade_shell",
+				"1Rnd_SmokeOrange_Grenade_shell"
+			}
+		};
+	};
+
+	// Autorifleman
+	class BIS_BLU2:OtherSquad
+	{
+		identity = "EPA_B_Armstrong";
+		appearance = "B_soldier_AR_F";
+	};
+
+	// Combat Life Saver
+	class BIS_BLU3:OtherSquad
+	{
+		identity = "EPA_B_Larkin";
+		appearance = "B_medic_F";
+	};
+};

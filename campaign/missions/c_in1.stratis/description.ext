@@ -1,0 +1,11 @@
+#include "\A3\Missions_F_EPA\Campaign_shared\Hubs\cfgC_in1.hpp"
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+
+SET_MISSION_META(C,C_in1,X,$STR_A3_C_in1_mission_name,$STR_A3_C_in1_overview)
+
+dev = "Warka";
+
+onLoadMissionTime = 0;
+
+briefing = 0;
+debriefing = 0;

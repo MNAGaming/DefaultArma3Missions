@@ -1,0 +1,84 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(B,B_out2,X,$STR_A3_B_out2_Mission_Name,$STR_A3_B_out2_Overview)
+
+dev = "Zipper";
+
+debriefing = 0;
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPB_B_Kerry";
+		appearance = "I_G_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			{"srifle_EBR_MRCO_pointer_F", "20Rnd_762x51_Mag", 5}
+		};
+
+		handgun[] =
+		{
+			{"hgun_ACPC2_F", "9Rnd_45ACP_Mag", 2}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"headgear"
+		};
+
+		add[] =
+		{
+			{"magazine", "DemoCharge_Remote_Mag"},
+			{"magazine", "HandGrenade", 2},
+			{"item", "FirstAidKit"}
+		};
+
+		required[] =
+		{
+			{"magazine","democharge_remote_mag"},
+			{"pweapon*", "srifle_ebr_mrco_pointer_f"},
+			{"vest*", "v_tacvest_blk"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Player's team
+	class BIS_guer1:Squad
+	{
+		identity = "EPB_B_AutoRifleman";
+		appearance = "B_G_Soldier_AR_F";
+
+		remove[] = {"headgear"};
+		add[] = {"NVGoggles_OPFOR", "NVGoggles_INDEP", "NVGoggles"};
+	};
+
+	class BIS_guer2:BIS_guer1 {identity = "EPB_B_Medic"; appearance = "B_G_medic_F";};
+	class BIS_guer3:BIS_guer1 {identity = "EPB_B_AntiTank"; appearance = "B_G_Soldier_LAT_F";};
+
+	// Reinforcements
+	class BIS_guer4:Joined
+	{
+		identity 	= "EPB_B_B_out2_generate1";
+		appearance 	= "B_G_Soldier_F";
+
+		remove[] = {"headgear"};
+		add[] = {"NVGoggles_OPFOR", "NVGoggles_INDEP", "NVGoggles"};
+	};
+	class BIS_guer5:BIS_guer4 {identity = "EPB_B_B_out2_generate2"; appearance = "B_G_medic_F";};
+	class BIS_guer6:BIS_guer4 {identity = "EPB_B_B_out2_generate3"; appearance = "B_G_Soldier_AR_F";};
+	class BIS_guer7:BIS_guer4 {identity = "EPB_B_B_out2_generate4"; appearance = "B_G_Soldier_LAT_F";};
+};
+
+class CfgDebriefing
+{
+	class B_out2_1
+	{
+		subtitle = $STR_A3_B_out2_Debriefing_B_out2_1_subtitle;
+	};
+};

@@ -1,0 +1,26 @@
+class Sentences
+{
+	class b_m06_01_start_JAM_0
+	{
+		text = "$STR_A3_b_m06_01_start_JAM_0";
+		speech[] = {"\a3\dubbing_f_epb\b_m06\01_Start\b_m06_01_start_JAM_0.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_m06_01_start_JAM_1
+	{
+		text = "$STR_A3_b_m06_01_start_JAM_1";
+		speech[] = {"\a3\dubbing_f_epb\b_m06\01_Start\b_m06_01_start_JAM_1.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

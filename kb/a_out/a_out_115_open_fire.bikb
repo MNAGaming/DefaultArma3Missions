@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_out_115_open_fire_MIL_0
+	{
+		text = "$STR_A3_a_out_115_open_fire_MIL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_out\115_Open_Fire\a_out_115_open_fire_MIL_0.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

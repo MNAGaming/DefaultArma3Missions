@@ -1,0 +1,44 @@
+dev = "Vasek";
+
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(C,C_EB,X,$STR_A3_C_EB_Mission_Name,$STR_A3_C_EB_overview)
+
+briefing = 0;
+debriefing = 0;
+
+class Characters: TemplateCharacters
+{
+	class BIS_inf:PlayerC_PersistentGear
+	{
+		identity 	= "EPC_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+	};
+};
+
+class CfgDebriefing
+{
+	class END1
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = "";
+	};
+
+	//player wounds or kills himself
+	class END4
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = "";
+	};
+};
+
+class CfgRespawnTemplates
+{
+	// Class used in respawnTemplates entry
+	class None
+	{
+		// Function or script executed upon death. Parameters passed into it are the same as are passed into onPlayerKilled.sqf file
+		onPlayerKilled = "Scripts\playerKilled.sqf";
+	};
+};

@@ -1,0 +1,23 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(B,B_skirmish01,X,$STR_A3_B_skirmishX_mission_name,$STR_A3_B_skirmishX_overview)
+
+dev = "Vasek";
+
+onLoadMissionTime = 0;
+
+briefing = 0;
+debriefing = 0;
+
+disableRandomization[] = {"AllVehicles"};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPB_B_Kerry";
+		appearance = "I_G_Story_Protagonist_F";
+	};
+};

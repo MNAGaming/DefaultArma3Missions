@@ -1,0 +1,44 @@
+class Sentences
+{
+	class a_in_128_ambient_2_XRA_0
+	{
+		text = "$STR_A3_a_in_128_ambient_2_XRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\128_Ambient_2\a_in_128_ambient_2_XRA_0.ogg"};
+		actor = "BIS_xray";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_128_ambient_2_BHQ_0
+	{
+		text = "$STR_A3_a_in_128_ambient_2_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\128_Ambient_2\a_in_128_ambient_2_BHQ_0.ogg"};
+		actor = "BIS_bhq";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_128_ambient_2_XRA_1
+	{
+		text = "$STR_A3_a_in_128_ambient_2_XRA_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in\128_Ambient_2\a_in_128_ambient_2_XRA_1.ogg"};
+		actor = "BIS_xray";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_128_ambient_2_XRA_2
+	{
+		text = "$STR_A3_a_in_128_ambient_2_XRA_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in\128_Ambient_2\a_in_128_ambient_2_XRA_2.ogg"};
+		actor = "BIS_xray";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_m06_20_convoy_info_3_GUD_0
+	{
+		text = "$STR_A3_b_m06_20_convoy_info_3_GUD_0";
+		speech[] = {"\a3\dubbing_f_epb\b_m06\20_Convoy_Info_3\b_m06_20_convoy_info_3_GUD_0.ogg"};
+		actor = "BIS_spotter3";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

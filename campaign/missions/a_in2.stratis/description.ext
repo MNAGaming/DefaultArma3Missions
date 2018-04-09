@@ -1,0 +1,66 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_in2,G,$STR_A3_A_in2_Mission_Name,$STR_A3_A_in2_Overview)
+
+dev = "Zipper";
+
+briefing = 0;
+debriefing = 0;
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+	};
+
+	// Exposition dude
+	class BIS_exp:Default
+	{
+		identity = "EPA_B_Lacey";
+		appearance = "B_Soldier_F";
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"headgear", "H_Cap_blk"},
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"}
+		};
+	};
+
+	class BIS_survivor1:Default
+	{
+		identity = "EPA_B_Martinez";
+		appearance = "B_soldier_AR_F";
+
+		remove[] =
+		{
+			"headgear",
+			"NVGoggles"
+		};
+	};
+
+	class BIS_survivor2:Default
+	{
+		identity = "EPA_B_McKendrick";
+		appearance = "B_Soldier_GL_F";
+	};
+
+	class BIS_survivor3:Default
+	{
+		identity = "EPA_B_Taylor";
+		appearance = "B_medic_F";
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+	};
+};

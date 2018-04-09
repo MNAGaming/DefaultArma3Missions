@@ -1,0 +1,93 @@
+dev = "Nelson";
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(C,C_m02,X,$STR_A3_C_m02_mission_name,$STR_A3_C_m02_overview)
+
+class CfgDebriefing {
+	class C_out1_1 {
+		description 		= $STR_A3_Campaign_C_m02_Debriefing_WIN1;
+		subtitle 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class C_m02_1 : C_out1_1 {
+		description 		= $STR_A3_Campaign_C_m02_Debriefing_FAIL1;
+	};
+
+	class C_m02_2 : C_out1_1 {
+		description 		= $STR_A3_Campaign_C_m02_Debriefing_FAIL2;
+	};
+};
+
+class CfgCommunicationMenu {
+	class Attack;
+	class Strike: Attack {
+		text = $STR_A3_Campaign_C_m02_Supports_Strike;
+		expression = "['Strike'] call BIS_fnc_C_m02_support; BIS_supportCommMenuIdStrikeDone = true;";
+		icon = "\a3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+		removeAfterExpressionCall = 1;
+	};
+};
+
+class Characters: TemplateCharacters
+{
+	class BIS_inf:PlayerC_DefaultGear
+	{
+		identity 	= "EPC_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+
+		add[] =
+		{
+			{"uniform", "U_B_CombatUniform_mcam_vest"},
+			{"backpack", "B_AssaultPack_Kerry"},
+			{"magazine", "DemoCharge_Remote_Mag", 1},
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell", 2},
+			{"weapon", "Binocular"}
+		};
+	};
+
+	class BIS_leader:Default
+	{
+		identity 	= "EPC_B_McKendrick";
+		appearance 	= "B_Soldier_TL_F";
+	};
+
+	class BIS_medic:Default
+	{
+		identity 	= "EPC_B_Ryan";
+		appearance 	= "B_medic_F";
+	};
+
+	class BIS_autorifleman:Default
+	{
+		identity 	= "EPC_B_Givens";
+		appearance 	= "B_soldier_AR_F";
+	};
+
+	class BIS_antitank:Default
+	{
+		identity 	= "EPC_B_Taylor";
+		appearance 	= "B_soldier_AT_F";
+	};
+
+	class BIS_riflemanLight:Default
+	{
+		identity 	= "EPC_B_Martinez";
+		appearance 	= "B_Soldier_lite_F";
+	};
+
+	class BIS_marksman:Default
+	{
+		identity 	= "EPC_B_Nichols";
+		appearance 	= "B_soldier_M_F";
+	};
+
+	class BIS_grenadier:Default
+	{
+		identity 	= "EPC_B_Mitchell";
+		appearance 	= "B_Soldier_GL_F";
+	};
+};

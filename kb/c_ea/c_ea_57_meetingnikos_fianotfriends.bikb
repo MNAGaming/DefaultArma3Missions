@@ -1,0 +1,26 @@
+class Sentences
+{
+	class c_ea_57_meetingnikos_fianotfriends_JOU_0
+	{
+		text = "$STR_A3_c_ea_57_meetingnikos_fianotfriends_JOU_0";
+		speech[] = {"\a3\dubbing_f_epc\c_ea\57_MeetingNikos_FIANotFriends\c_ea_57_meetingnikos_fianotfriends_JOU_0.ogg"};
+		actor = "BIS_journalist";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_ea_57_meetingnikos_fianotfriends_NIK_0
+	{
+		text = "$STR_A3_c_ea_57_meetingnikos_fianotfriends_NIK_0";
+		speech[] = {"\a3\dubbing_f_epc\c_ea\57_MeetingNikos_FIANotFriends\c_ea_57_meetingnikos_fianotfriends_NIK_0.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

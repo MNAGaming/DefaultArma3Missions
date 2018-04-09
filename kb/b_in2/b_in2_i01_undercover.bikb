@@ -1,0 +1,35 @@
+class Sentences
+{
+	class b_in2_i01_undercover_STA_0
+	{
+		text = "$STR_A3_b_in2_i01_undercover_STA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\i01_Undercover\b_in2_i01_undercover_STA_0.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_i01_undercover_STA_1
+	{
+		text = "$STR_A3_b_in2_i01_undercover_STA_1";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\i01_Undercover\b_in2_i01_undercover_STA_1.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_i01_undercover_STA_2
+	{
+		text = "$STR_A3_b_in2_i01_undercover_STA_2";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\i01_Undercover\b_in2_i01_undercover_STA_2.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

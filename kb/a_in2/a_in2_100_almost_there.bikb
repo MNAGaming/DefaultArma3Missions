@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_in2_100_almost_there_BRA_0
+	{
+		text = "$STR_A3_a_in2_100_almost_there_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\100_Almost_There\a_in2_100_almost_there_BRA_0.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

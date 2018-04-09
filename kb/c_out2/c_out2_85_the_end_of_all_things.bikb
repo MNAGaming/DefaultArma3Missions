@@ -1,0 +1,71 @@
+class Sentences
+{
+	class c_out2_85_the_end_of_all_things_BHQ_0
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_ABA_0
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_ABA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_ABA_0.ogg"};
+		actor = "BIS_tankFake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_MEM_0
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_MEM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_MEM_0.ogg"};
+		actor = "BIS_planeFake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_BHQ_1
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_ABB_0
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_ABB_0.ogg"};
+		actor = "BIS_bravo";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_BHQ_2
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_BHQ_2.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_85_the_end_of_all_things_BHQ_3
+	{
+		text = "$STR_A3_c_out2_85_the_end_of_all_things_BHQ_3";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\85_The_End_Of_All_Things\c_out2_85_the_end_of_all_things_BHQ_3.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

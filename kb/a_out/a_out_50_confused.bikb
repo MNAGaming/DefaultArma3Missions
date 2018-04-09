@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_out_50_confused_ALP_0
+	{
+		text = "$STR_A3_a_out_50_confused_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_out\50_Confused\a_out_50_confused_ALP_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

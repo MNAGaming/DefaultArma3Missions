@@ -1,0 +1,71 @@
+class Sentences
+{
+	class c_out2_x05_james_bypassed_JAM_0
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_JAM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_JAM_0.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_KER_0
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_JAM_1
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_JAM_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_JAM_1.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_JAM_2
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_JAM_2";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_JAM_2.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_KER_1
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_KER_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_JAM_3
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_JAM_3";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_JAM_3.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_x05_james_bypassed_KER_2
+	{
+		text = "$STR_A3_c_out2_x05_james_bypassed_KER_2";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x05_James_Bypassed\c_out2_x05_james_bypassed_KER_2.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

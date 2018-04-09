@@ -1,0 +1,53 @@
+class Sentences
+{
+	class b_in2_65_check_1_STA_0
+	{
+		text = "$STR_A3_b_in2_65_check_1_STA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\65_Check_1\b_in2_65_check_1_STA_0.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_65_check_1_KER_0
+	{
+		text = "$STR_A3_b_in2_65_check_1_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\65_Check_1\b_in2_65_check_1_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_65_check_1_STA_1
+	{
+		text = "$STR_A3_b_in2_65_check_1_STA_1";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\65_Check_1\b_in2_65_check_1_STA_1.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_65_check_1_STA_2
+	{
+		text = "$STR_A3_b_in2_65_check_1_STA_2";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\65_Check_1\b_in2_65_check_1_STA_2.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in2_65_check_1_KER_1
+	{
+		text = "$STR_A3_b_in2_65_check_1_KER_1";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\65_Check_1\b_in2_65_check_1_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

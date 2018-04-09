@@ -1,0 +1,26 @@
+class Sentences
+{
+	class a_hub_020_a_m05_intro_DEL_0
+	{
+		text = "$STR_A3_a_hub_020_a_m05_intro_DEL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\020_a_m05_intro\a_hub_020_a_m05_intro_DEL_0.ogg"};
+		actor = "BIS_DeltaLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_020_a_m05_intro_DEL_1
+	{
+		text = "$STR_A3_a_hub_020_a_m05_intro_DEL_1";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\020_a_m05_intro\a_hub_020_a_m05_intro_DEL_1.ogg"};
+		actor = "BIS_DeltaLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

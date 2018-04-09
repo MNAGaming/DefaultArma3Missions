@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_m02_25_ambushclear_LEA_0
+	{
+		text = "$STR_A3_c_m02_25_ambushclear_LEA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\25_ambushClear\c_m02_25_ambushclear_LEA_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

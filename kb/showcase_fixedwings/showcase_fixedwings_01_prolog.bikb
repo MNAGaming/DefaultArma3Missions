@@ -1,0 +1,17 @@
+class Sentences
+{
+	class showcase_fixedwings_01_prolog_BHQ_0
+	{
+		text = "$STR_A3_showcase_fixedwings_01_prolog_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\01_Prolog\showcase_fixedwings_01_prolog_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

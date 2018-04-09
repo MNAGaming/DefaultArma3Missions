@@ -1,0 +1,108 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(C,C_m01,P,$STR_A3_C_m01_mission_name,$STR_A3_C_m01_overview)
+dev = "Jezuro";
+
+class Characters: TemplateCharacters
+{
+	class BIS_inf: PlayerC_DefaultGear
+	{
+		identity 	= "EPC_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+
+	add[] = {
+			{"uniform", "U_B_CombatUniform_mcam_vest"},
+			{"backpack", "B_AssaultPack_Kerry"},
+			{"magazine","Democharge_Remote_Mag",2, "backpack"};
+		};
+	};
+
+	// Rifleman 1
+	class BIS_FIA1: Default
+	{
+		identity = "EPC_I_Rifleman_1";
+		appearance = "B_G_Soldier_F";
+
+		refreshIdentity	= 1;
+
+		remove[] = {
+			"headgear"
+		};
+
+		add[] = {
+			"NVGoggles"
+		};
+	};
+
+	// Autorifleman 1
+	class BIS_talker: BIS_FIA1
+	{
+		identity = "EPC_I_Autorifleman_1";
+		appearance = "B_G_Soldier_AR_F";
+
+		add[] = {
+			{"magazine","200Rnd_65x39_cased_Box",1};
+		};
+	};
+
+	// Rifleman (AT) 1
+	class BIS_FIA3: BIS_FIA1
+	{
+		identity = "EPC_I_Rifleman_AT_1";
+		appearance = "B_G_Soldier_LAT_F";
+	};
+
+	// Marksman 1
+	class BIS_FIA4: BIS_FIA1
+	{
+		identity = "EPC_I_Marksman_1";
+		appearance = "B_G_Soldier_M_F";
+	};
+
+	// Combat Life Saver 1
+	class BIS_FIA5: BIS_FIA1
+	{
+		identity = "EPC_I_Combat_Life_Saver_1";
+		appearance = "B_G_medic_F";
+	};
+
+	// Rifleman (AT) 2
+	class BIS_FIA6: BIS_FIA1
+	{
+		identity = "EPC_I_Rifleman_AT_2";
+		appearance = "B_G_Soldier_LAT_F";
+	};
+
+	// Ammo Bearer 1
+	class BIS_FIA7: BIS_FIA1
+	{
+		identity = "EPC_I_Ammo_Bearer_1";
+		appearance = "B_G_Soldier_A_F";
+	};
+};
+
+class CfgDebriefing
+{
+	class C_m02_1
+	{
+		description = $STR_A3_campaign_c_m01_debrief01_desc;
+	};
+
+	class C_m01_1
+	{
+		subtitle = $STR_A3_campaign_c_m01_debrief02_sub;
+		description = $STR_A3_campaign_c_m01_debrief02_desc;
+	};
+};
+
+class CfgCommunicationMenu
+{
+	class Attack;
+	class APCs: Attack
+	{
+		text = $STR_A3_campaign_c_m01_other01;
+		expression = "BIS_APCsGo = TRUE;";
+		icon = "\a3\ui_f\data\map\markers\nato\b_armor.paa";
+		removeAfterExpressionCall = 1;
+	};
+};

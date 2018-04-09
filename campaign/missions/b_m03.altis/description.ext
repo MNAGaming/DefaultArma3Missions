@@ -1,0 +1,211 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(B,B_m03,P,$STR_A3_B_m03_mission_name,$STR_A3_B_m03_overview)
+
+dev = "Jezuro";
+
+class CfgDebriefing
+{
+	class B_hub02_1
+	{
+		description = $STR_A3_campaign_b_m03_debrief01_desc;
+	};
+
+	class B_hub02_2
+	{
+		description = $STR_A3_campaign_b_m03_debrief02_desc;
+	};
+
+	class B_hub02_3
+	{
+		description = $STR_A3_campaign_b_m03_debrief03_desc;
+	};
+
+	class B_m03_1
+	{
+		subtitle = $STR_A3_campaign_b_m03_debrief04_sub;
+		description = $STR_A3_campaign_b_m03_debrief04_desc;
+	};
+
+	class B_m03_2
+	{
+		subtitle = $STR_A3_campaign_b_m03_debrief05_sub;
+		description = $STR_A3_campaign_b_m03_debrief05_desc;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity = "EPB_B_Kerry";
+		appearance = "I_G_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_TRG21_GL_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG21_GL_MRCO_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG21_GL_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG20_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_Flash_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_Holo_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_ARCO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			}
+		};
+
+		handgun[] =
+		{
+			{
+				"hgun_ACPC2_F",
+				"9Rnd_45ACP_Mag", 3
+			}
+		};
+
+		add[] =
+		{
+			{"magazine","HandGrenade", 2},
+			{"magazine","SmokeShell"},
+			{"magazine","SmokeShellGreen"},
+			{"magazine","Chemlight_green", 2},
+			{"backpack","B_Fieldpack_oli"},
+			{"magazine","Democharge_Remote_Mag",1,"backpack"},
+			//{"magazine","ATMine_Range_Mag",1,"backpack"},
+			{"item","FirstAidKit"}
+		};
+
+		required[] =
+		{
+			{"backpack*","B_Fieldpack_oli"},
+			{"magazine","democharge_remote_mag",1,"backpack"},
+			{"pweapon*", "arifle_trg21_arco_pointer_f"},
+			{"vest*", "v_tacvest_blk"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	class BIS_medic:Squad
+	{
+		identity = "EPB_B_Medic";
+		appearance = "B_G_medic_F";
+	};
+
+	class BIS_genericMember1:Joined
+	{
+		identity = "EPB_B_AutoRifleman";
+		appearance = "B_G_Soldier_AR_F";
+	};
+
+	class BIS_genericMember2:Squad
+	{
+		identity = "EPB_B_Soldier";
+		appearance = "B_G_Soldier_F";
+	};
+
+	class BIS_genericMember3:Joined
+	{
+		identity = "EPB_B_AntiTank";
+		appearance = "B_G_Soldier_LAT_F";
+	};
+
+	class BIS_genericMember4:Joined
+	{
+		identity = "EPB_B_Marksman";
+		appearance = "B_G_Soldier_M_F";
+	};
+
+	class BIS_genericMember5:Squad
+	{
+		identity = "EPB_B_Grenadier";
+		appearance = "B_G_Soldier_GL_F";
+	};
+
+	class BIS_genericMember6:Joined
+	{
+		identity = "EPB_B_Soldier2";
+		appearance = "B_G_Soldier_F";
+	};
+
+	// CTRG Grenadier
+	class BIS_ice3:Default
+	{
+		identity = "EPB_B_CTRG3";
+		appearance = "B_Soldier_GL_F";
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_MX_GL_Black_Hamr_pointer_F",
+				"30Rnd_65x39_caseless_mag", 7,
+				"1Rnd_HE_Grenade_shell", 4
+			}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_3"},
+			{"vest", "V_TacVest_camo"},
+			{"headgear", "H_Beret_brn_SF"},
+			{"goggles", "G_tactical_clear"},
+			{"item", "FirstAidKit"}
+		};
+	};
+};
+
+class CfgCommunicationMenu
+{
+	class Attack;
+	class Team2:Attack
+	{
+		text = $STR_A3_campaign_b_m03_instructor02;
+		expression = "BIS_team2Go = TRUE;";
+		icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
+		removeAfterExpressionCall = 1;
+	};
+};

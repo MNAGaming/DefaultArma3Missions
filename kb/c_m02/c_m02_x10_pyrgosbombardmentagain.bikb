@@ -1,0 +1,44 @@
+class Sentences
+{
+	class c_m02_x10_pyrgosbombardmentagain_NIK_0
+	{
+		text = "$STR_A3_c_m02_x10_pyrgosbombardmentagain_NIK_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\x10_pyrgosBombardmentAgain\c_m02_x10_pyrgosbombardmentagain_NIK_0.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_x10_pyrgosbombardmentagain_NIK_1
+	{
+		text = "$STR_A3_c_m02_x10_pyrgosbombardmentagain_NIK_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\x10_pyrgosBombardmentAgain\c_m02_x10_pyrgosbombardmentagain_NIK_1.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_x10_pyrgosbombardmentagain_KER_0
+	{
+		text = "$STR_A3_c_m02_x10_pyrgosbombardmentagain_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\x10_pyrgosBombardmentAgain\c_m02_x10_pyrgosbombardmentagain_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_x10_pyrgosbombardmentagain_NIK_2
+	{
+		text = "$STR_A3_c_m02_x10_pyrgosbombardmentagain_NIK_2";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\x10_pyrgosBombardmentAgain\c_m02_x10_pyrgosbombardmentagain_NIK_2.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

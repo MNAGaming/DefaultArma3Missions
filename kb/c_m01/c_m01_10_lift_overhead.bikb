@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_m01_10_lift_overhead_KER_0
+	{
+		text = "$STR_A3_c_m01_10_lift_overhead_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\10_Lift_Overhead\c_m01_10_lift_overhead_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

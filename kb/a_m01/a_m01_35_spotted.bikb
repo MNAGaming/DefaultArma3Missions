@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m01_35_spotted_ALP_0
+	{
+		text = "$STR_A3_a_m01_35_spotted_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m01\35_Spotted\a_m01_35_spotted_ALP_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

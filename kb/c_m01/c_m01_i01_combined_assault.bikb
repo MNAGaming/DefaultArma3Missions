@@ -1,0 +1,44 @@
+class Sentences
+{
+	class c_m01_i01_combined_assault_ABA_0
+	{
+		text = "$STR_A3_c_m01_i01_combined_assault_ABA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\i01_Combined_Assault\c_m01_i01_combined_assault_ABA_0.ogg"};
+		actor = "BIS_EchoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_i01_combined_assault_ABA_1
+	{
+		text = "$STR_A3_c_m01_i01_combined_assault_ABA_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\i01_Combined_Assault\c_m01_i01_combined_assault_ABA_1.ogg"};
+		actor = "BIS_EchoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_i01_combined_assault_ABA_2
+	{
+		text = "$STR_A3_c_m01_i01_combined_assault_ABA_2";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\i01_Combined_Assault\c_m01_i01_combined_assault_ABA_2.ogg"};
+		actor = "BIS_EchoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_i01_combined_assault_ABA_3
+	{
+		text = "$STR_A3_c_m01_i01_combined_assault_ABA_3";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\i01_Combined_Assault\c_m01_i01_combined_assault_ABA_3.ogg"};
+		actor = "BIS_EchoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

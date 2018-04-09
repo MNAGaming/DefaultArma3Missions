@@ -1,0 +1,80 @@
+class Sentences
+{
+	class a_in2_10_survivors_BRA_0
+	{
+		text = "$STR_A3_a_in2_10_survivors_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_BRA_0.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_ICO_0
+	{
+		text = "$STR_A3_a_in2_10_survivors_ICO_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_ICO_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_BRA_1
+	{
+		text = "$STR_A3_a_in2_10_survivors_BRA_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_BRA_1.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_ICO_1
+	{
+		text = "$STR_A3_a_in2_10_survivors_ICO_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_ICO_1.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_BRA_2
+	{
+		text = "$STR_A3_a_in2_10_survivors_BRA_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_BRA_2.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_BRA_3
+	{
+		text = "$STR_A3_a_in2_10_survivors_BRA_3";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_BRA_3.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_ICO_2
+	{
+		text = "$STR_A3_a_in2_10_survivors_ICO_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_ICO_2.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in2_10_survivors_BRA_4
+	{
+		text = "$STR_A3_a_in2_10_survivors_BRA_4";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\10_Survivors\a_in2_10_survivors_BRA_4.ogg"};
+		actor = "BIS_survivorLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

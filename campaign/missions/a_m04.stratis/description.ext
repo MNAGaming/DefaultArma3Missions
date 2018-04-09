@@ -1,0 +1,127 @@
+dev = "Nelson";
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_m04,P,$STR_A3_Campaign_A_m04_Mission_Name,$STR_A3_campaign_a_m04_overview)
+
+class CfgDebriefing
+{
+	class A_hub02_1
+	{
+		description 		= $STR_A3_Campaign_A_m04_Debriefing_WIN1;
+		subtitle 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class A_hub02_2:A_hub02_1
+	{
+		description 		= $STR_A3_Campaign_A_m04_Debriefing_WIN2;
+	};
+
+	class A_hub02_3:A_hub02_1
+	{
+		description 		= $STR_A3_Campaign_A_m04_Debriefing_FAIL;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			//grenade launcher rifles
+			{
+				"arifle_MX_GL_ACO_F",
+				"30Rnd_65x39_caseless_mag", 		{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG21_GL_MRCO_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_Mk20_GL_ACO_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{2,6}
+			},
+
+			//Standard rifles 6.5mm
+			{"arifle_MX_ACO_F",			"30Rnd_65x39_caseless_mag", 		{6,8} }
+		};
+
+		handgun[] =
+		{
+			{
+				"hgun_P07_F",
+				"16Rnd_9x21_Mag", 3
+			}
+		};
+
+		add[] =
+		{
+			{"magazine","HandGrenade", 2},
+			{"magazine","SmokeShell"},
+			{"magazine","SmokeShellGreen"},
+			{"magazine","Chemlight_green", 2},
+			{"attachment","acc_flashlight",1,"primary"},
+			{"item","FirstAidKit"},
+		};
+
+		remove[] =
+		{
+			"nvgoggles"
+		};
+
+		required[] =
+		{
+			{"pweapon*", "arifle_mx_aco_f"},
+			{"vest*", "v_platecarrier_kerry"},
+			{"attachment","acc_flashlight",1,"primary"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	class BIS_leadPlayer:OtherSquad
+	{
+		identity = "EPA_B_Conway";
+		appearance = "B_Soldier_TL_F";
+	};
+
+	class BIS_medic:OtherSquad
+	{
+		identity = "EPA_B_Larkin";
+		appearance = "B_medic_F";
+
+		add[] =
+		{
+			{"magazine","30Rnd_65x39_caseless_mag", 6},
+			{"magazine","16Rnd_9x21_Mag", 4}
+		};
+	};
+
+	class BIS_grenadier:OtherSquad
+	{
+		identity = "EPA_B_Nichols";
+		appearance = "B_Soldier_GL_F";
+	};
+
+	class BIS_autorifleman:OtherSquad
+	{
+		identity = "EPA_B_Armstrong";
+		appearance = "B_soldier_AR_F";
+	};
+
+	class BIS_rifleman:OtherSquad
+	{
+		identity = "EPA_B_A_m04_generate1";
+		appearance = "B_Soldier_F";
+	};
+};

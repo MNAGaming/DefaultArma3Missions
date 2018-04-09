@@ -1,0 +1,98 @@
+class Sentences
+{
+	class c_in2_70_fia_BHQ_0
+	{
+		text = "$STR_A3_c_in2_70_fia_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_NIK_0
+	{
+		text = "$STR_A3_c_in2_70_fia_NIK_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_NIK_0.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_KER_0
+	{
+		text = "$STR_A3_c_in2_70_fia_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_NIK_1
+	{
+		text = "$STR_A3_c_in2_70_fia_NIK_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_NIK_1.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_NIK_2
+	{
+		text = "$STR_A3_c_in2_70_fia_NIK_2";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_NIK_2.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_KER_1
+	{
+		text = "$STR_A3_c_in2_70_fia_KER_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_BHQ_1
+	{
+		text = "$STR_A3_c_in2_70_fia_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_ABB_0
+	{
+		text = "$STR_A3_c_in2_70_fia_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_ABB_0.ogg"};
+		actor = "BIS_mech";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_BHQ_2
+	{
+		text = "$STR_A3_c_in2_70_fia_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_BHQ_2.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_70_fia_NIK_3
+	{
+		text = "$STR_A3_c_in2_70_fia_NIK_3";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\70_FIA\c_in2_70_fia_NIK_3.ogg"};
+		actor = "BIS_nikos";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

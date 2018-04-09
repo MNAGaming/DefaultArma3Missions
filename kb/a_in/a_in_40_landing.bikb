@@ -1,0 +1,26 @@
+class Sentences
+{
+	class a_in_40_landing_NOV_0
+	{
+		text = "$STR_A3_a_in_40_landing_NOV_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\40_Landing\a_in_40_landing_NOV_0.ogg"};
+		actor = "BIS_heliD";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_40_landing_NOV_1
+	{
+		text = "$STR_A3_a_in_40_landing_NOV_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in\40_Landing\a_in_40_landing_NOV_1.ogg"};
+		actor = "BIS_heliD";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

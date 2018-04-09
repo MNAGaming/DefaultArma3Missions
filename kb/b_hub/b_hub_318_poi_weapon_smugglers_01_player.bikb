@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_hub_318_poi_weapon_smugglers_01_player_KER_0
+	{
+		text = "$STR_A3_b_hub_318_poi_weapon_smugglers_01_player_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\318_POI_Weapon_Smugglers_01_Player\b_hub_318_poi_weapon_smugglers_01_player_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m04_30_nikosboardingvehicle_CON_0
+	{
+		text = "$STR_A3_a_m04_30_nikosboardingvehicle_CON_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m04\30_NikosBoardingVehicle\a_m04_30_nikosboardingvehicle_CON_0.ogg"};
+		actor = "BIS_contact";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

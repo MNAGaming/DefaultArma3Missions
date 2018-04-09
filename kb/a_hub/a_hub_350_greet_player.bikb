@@ -1,0 +1,53 @@
+class Sentences
+{
+	class a_hub_350_greet_player_ALP_0
+	{
+		text = "$STR_A3_a_hub_350_greet_player_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\350_greet_player\a_hub_350_greet_player_ALP_0.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_350_greet_player_BRA_0
+	{
+		text = "$STR_A3_a_hub_350_greet_player_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\350_greet_player\a_hub_350_greet_player_BRA_0.ogg"};
+		actor = "BIS_AIB";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_350_greet_player_CHA_0
+	{
+		text = "$STR_A3_a_hub_350_greet_player_CHA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\350_greet_player\a_hub_350_greet_player_CHA_0.ogg"};
+		actor = "BIS_AIC";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_350_greet_player_ALPA_0
+	{
+		text = "$STR_A3_a_hub_350_greet_player_ALPA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\350_greet_player\a_hub_350_greet_player_ALPA_0.ogg"};
+		actor = "BIS_AID";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_350_greet_player_ALPB_0
+	{
+		text = "$STR_A3_a_hub_350_greet_player_ALPB_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\350_greet_player\a_hub_350_greet_player_ALPB_0.ogg"};
+		actor = "BIS_AIE";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

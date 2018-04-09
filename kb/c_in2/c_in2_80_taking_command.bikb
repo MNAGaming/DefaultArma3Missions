@@ -1,0 +1,44 @@
+class Sentences
+{
+	class c_in2_80_taking_command_ABB_0
+	{
+		text = "$STR_A3_c_in2_80_taking_command_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\80_Taking_Command\c_in2_80_taking_command_ABB_0.ogg"};
+		actor = "BIS_mech";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_80_taking_command_KER_0
+	{
+		text = "$STR_A3_c_in2_80_taking_command_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\80_Taking_Command\c_in2_80_taking_command_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_80_taking_command_ABB_1
+	{
+		text = "$STR_A3_c_in2_80_taking_command_ABB_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\80_Taking_Command\c_in2_80_taking_command_ABB_1.ogg"};
+		actor = "BIS_mech";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_80_taking_command_ABB_2
+	{
+		text = "$STR_A3_c_in2_80_taking_command_ABB_2";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\80_Taking_Command\c_in2_80_taking_command_ABB_2.ogg"};
+		actor = "BIS_mech";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

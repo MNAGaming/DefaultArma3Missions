@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_out2_20_contact_ABA_0
+	{
+		text = "$STR_A3_c_out2_20_contact_ABA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\20_Contact\c_out2_20_contact_ABA_0.ogg"};
+		actor = "BIS_tankFake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,102 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(B,B_m02_2,P,$STR_A3_B_m02_2_mission_name,$STR_A3_B_m02_2_overview)
+briefing = 0;
+dev = "Nelson";
+
+class CfgDebriefing
+{
+	class B_hub03_1
+	{
+		description 		= $STR_A3_Campaign_B_m02_2_Debriefing_WIN1;
+		subtitle 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class B_hub03_2:B_hub03_1
+	{
+		description 		= $STR_A3_Campaign_B_m02_2_Debriefing_WIN2;
+	};
+
+	class B_m02_2_1:B_hub03_1
+	{
+		description 		= $STR_A3_Campaign_B_m02_2_Debriefing_FAIL1;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity 	= "EPB_B_Kerry";
+		appearance 	= "I_G_Story_Protagonist_F";
+	};
+
+	class BIS_medic:Squad
+	{
+		identity 	= "EPB_B_Medic";
+		appearance 	= "B_G_medic_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_M"}
+		};
+	};
+
+	class BIS_autorifleman:Squad
+	{
+		identity 	= "EPB_B_AutoRifleman";
+		appearance 	= "B_G_Soldier_AR_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_H_MG"}
+		};
+	};
+
+	class BIS_antitank:Squad
+	{
+		identity 	= "EPB_B_AntiTank";
+		appearance 	= "B_G_Soldier_LAT_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_M"}
+		};
+	};
+
+	class BIS_recon:OtherSquad
+	{
+		identity = "EPB_B_Miller";
+		appearance = "I_G_Story_SF_Captain_F";
+
+		class GearMission
+		{
+			loadGear   	= 2;		//loadStatus, but don't touch the pool
+			saveGear   	= 5;		//saveStatus (only)
+		};
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_Black_Hamr_pointer_F", "30Rnd_65x39_caseless_mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_3"},
+			{"vest", "V_TacVest_blk"},
+			{"item", "FirstAidKit"}
+		};
+	};
+};

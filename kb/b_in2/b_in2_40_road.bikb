@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_in2_40_road_STA_0
+	{
+		text = "$STR_A3_b_in2_40_road_STA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\40_Road\b_in2_40_road_STA_0.ogg"};
+		actor = "BIS_negotiator";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

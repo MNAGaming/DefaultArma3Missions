@@ -1,0 +1,89 @@
+class Sentences
+{
+	class a_m03_50b_reinf_dead_ALP_0
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_ALP_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_MIL_0
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_MIL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_MIL_0.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_MIL_1
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_MIL_1";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_MIL_1.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_DEL_0
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_DEL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_DEL_0.ogg"};
+		actor = "BIS_delta";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_DEL_1
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_DEL_1";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_DEL_1.ogg"};
+		actor = "BIS_delta";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_DEL_2
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_DEL_2";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_DEL_2.ogg"};
+		actor = "BIS_delta";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_BRA_0
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_BRA_0.ogg"};
+		actor = "BIS_attackLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_MIL_2
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_MIL_2";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_MIL_2.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_50b_reinf_dead_MIL_3
+	{
+		text = "$STR_A3_a_m03_50b_reinf_dead_MIL_3";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\50b_Reinf_Dead\a_m03_50b_reinf_dead_MIL_3.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

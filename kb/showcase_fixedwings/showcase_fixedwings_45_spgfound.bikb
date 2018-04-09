@@ -1,0 +1,53 @@
+class Sentences
+{
+	class showcase_fixedwings_45_spgfound_ABA_0
+	{
+		text = "$STR_A3_showcase_fixedwings_45_spgfound_ABA_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\45_SPGFound\showcase_fixedwings_45_spgfound_ABA_0.ogg"};
+		actor = "BIS_JTAC";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class showcase_fixedwings_45_spgfound_ABA_1
+	{
+		text = "$STR_A3_showcase_fixedwings_45_spgfound_ABA_1";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\45_SPGFound\showcase_fixedwings_45_spgfound_ABA_1.ogg"};
+		actor = "BIS_JTAC";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class showcase_fixedwings_45_spgfound_BHQ_0
+	{
+		text = "$STR_A3_showcase_fixedwings_45_spgfound_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\45_SPGFound\showcase_fixedwings_45_spgfound_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class showcase_fixedwings_45_spgfound_LEA_0
+	{
+		text = "$STR_A3_showcase_fixedwings_45_spgfound_LEA_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\45_SPGFound\showcase_fixedwings_45_spgfound_LEA_0.ogg"};
+		actor = "BIS_Player";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class showcase_fixedwings_45_spgfound_ABA_2
+	{
+		text = "$STR_A3_showcase_fixedwings_45_spgfound_ABA_2";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\45_SPGFound\showcase_fixedwings_45_spgfound_ABA_2.ogg"};
+		actor = "BIS_JTAC";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

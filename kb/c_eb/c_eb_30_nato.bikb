@@ -1,0 +1,71 @@
+class Sentences
+{
+	class c_eb_30_nato_MEM_0
+	{
+		text = "$STR_A3_c_eb_30_nato_MEM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_MEM_0.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_KER_0
+	{
+		text = "$STR_A3_c_eb_30_nato_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_MEM_1
+	{
+		text = "$STR_A3_c_eb_30_nato_MEM_1";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_MEM_1.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_MEM_2
+	{
+		text = "$STR_A3_c_eb_30_nato_MEM_2";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_MEM_2.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_KER_1
+	{
+		text = "$STR_A3_c_eb_30_nato_KER_1";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_MEM_3
+	{
+		text = "$STR_A3_c_eb_30_nato_MEM_3";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_MEM_3.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_30_nato_MEM_4
+	{
+		text = "$STR_A3_c_eb_30_nato_MEM_4";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\30_NATO\c_eb_30_nato_MEM_4.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

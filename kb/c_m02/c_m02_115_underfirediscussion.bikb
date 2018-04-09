@@ -1,0 +1,71 @@
+class Sentences
+{
+	class c_m02_115_underfirediscussion_LEA_0
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_LEA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_LEA_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_ABB_0
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_ABB_0.ogg"};
+		actor = "BIS_pinnedLeader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_ABB_1
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_ABB_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_ABB_1.ogg"};
+		actor = "BIS_pinnedLeader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_LEA_1
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_LEA_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_LEA_1.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_ABB_2
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_ABB_2";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_ABB_2.ogg"};
+		actor = "BIS_pinnedLeader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_LEA_2
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_LEA_2";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_LEA_2.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m02_115_underfirediscussion_ABB_3
+	{
+		text = "$STR_A3_c_m02_115_underfirediscussion_ABB_3";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\115_underFireDiscussion\c_m02_115_underfirediscussion_ABB_3.ogg"};
+		actor = "BIS_pinnedLeader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

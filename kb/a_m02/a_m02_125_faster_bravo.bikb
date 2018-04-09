@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m02_125_faster_bravo_BRA_0
+	{
+		text = "$STR_A3_a_m02_125_faster_bravo_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\125_Faster_Bravo\a_m02_125_faster_bravo_BRA_0.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

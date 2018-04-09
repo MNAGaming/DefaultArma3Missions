@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_in2_x10_squad_dead_BHQ_0
+	{
+		text = "$STR_A3_c_in2_x10_squad_dead_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\x10_Squad_Dead\c_in2_x10_squad_dead_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

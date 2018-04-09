@@ -1,0 +1,55 @@
+dev = "Vasek";
+
+author = 		$STR_A3_Bohemia_Interactive;
+briefingName = 		"$STR_A3_Showcase_FixedWings_Mission_Name";
+onLoadName = 		"$STR_A3_Showcase_FixedWings_Mission_Name";
+onLoadMission = 	"$STR_A3_Showcase_FixedWings_Showcase_Summary_text";
+overviewText = 		"$STR_A3_Showcase_FixedWings_Showcase_Summary_text";
+overviewPicture = 	"\a3\Missions_F_EPA\data\img\Showcase_Fixed_Wings_overview_CA.paa";
+doneKeys[] = 		{"BIS_Showcase_FixedWings.Altis_done"};
+
+briefing = "[1,0] select ([] call (uinamespace getvariable 'bis_fnc_isCampaign'))";
+debriefing = "[1,0] select ([] call (uinamespace getvariable 'bis_fnc_isCampaign'))";
+
+class CfgDebriefing
+{
+	class Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Win01_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Win01_description";
+    		subtitle = "";
+		backgroundPicture = "";
+		picture = "";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class Win02 : Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Win02_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Win02_description";
+	};
+
+	class Win03 : Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Win03_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Win03_description";
+	};
+
+	class Fail01 : Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Fail01_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Fail01_description";
+	};
+
+	class Fail02 : Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Fail02_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Fail02_description";
+	};
+
+	class Fail03 : Win01
+	{
+  		title = "$STR_A3_Showcase_FixedWings_Debriefing_Fail03_title";
+    		description = "$STR_A3_Showcase_FixedWings_Debriefing_Fail03_description";
+	};
+};

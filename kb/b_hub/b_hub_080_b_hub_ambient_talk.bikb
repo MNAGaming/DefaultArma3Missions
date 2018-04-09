@@ -1,0 +1,44 @@
+class Sentences
+{
+	class b_hub_080_b_hub_ambient_talk_SFA_0
+	{
+		text = "$STR_A3_b_hub_080_b_hub_ambient_talk_SFA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\080_B_HUB_Ambient_Talk\b_hub_080_b_hub_ambient_talk_SFA_0.ogg"};
+		actor = "BIS_SFA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_080_b_hub_ambient_talk_SFB_0
+	{
+		text = "$STR_A3_b_hub_080_b_hub_ambient_talk_SFB_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\080_B_HUB_Ambient_Talk\b_hub_080_b_hub_ambient_talk_SFB_0.ogg"};
+		actor = "BIS_SFB";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_080_b_hub_ambient_talk_SFA_1
+	{
+		text = "$STR_A3_b_hub_080_b_hub_ambient_talk_SFA_1";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\080_B_HUB_Ambient_Talk\b_hub_080_b_hub_ambient_talk_SFA_1.ogg"};
+		actor = "BIS_SFA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_080_b_hub_ambient_talk_SFA_2
+	{
+		text = "$STR_A3_b_hub_080_b_hub_ambient_talk_SFA_2";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\080_B_HUB_Ambient_Talk\b_hub_080_b_hub_ambient_talk_SFA_2.ogg"};
+		actor = "BIS_SFA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

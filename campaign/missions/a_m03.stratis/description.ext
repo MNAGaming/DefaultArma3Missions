@@ -1,0 +1,125 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_m03,G,$STR_A3_A_m03_Mission_Name,$STR_A3_A_m03_Overview)
+
+dev = "Zipper";
+
+class CfgDebriefing
+{
+	class A_hub01_1
+	{
+		description = $STR_A3_A_m03_Debriefing_A_hub01_1_description;
+	};
+
+	class A_hub01_2
+	{
+		description = $STR_A3_A_m03_Debriefing_A_hub01_2_description;
+	};
+
+	class A_m03_1
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_1_subtitle;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			//light machineguns
+			{"arifle_MX_SW_Hamr_pointer_F", 	"100Rnd_65x39_caseless_mag_Tracer", 	{2,3} },
+			{"arifle_MX_SW_Hamr_pointer_F", 	"30Rnd_65x39_caseless_mag", 		{3,5} },
+			{"LMG_Mk200_MRCO_F", 			"200Rnd_65x39_cased_Box",	 	{2,2} },
+			{"LMG_Mk200_pointer_F", 		"200Rnd_65x39_cased_Box",	 	{4,5} },
+			{"LMG_Mk200_F",				"200Rnd_65x39_cased_Box",	 	{2,2} },
+			{"arifle_MX_SW_pointer_F", 		"100Rnd_65x39_caseless_mag", 		{4,5} }
+
+			//Marksman rifles
+			/*
+			{"arifle_MXM_SOS_pointer_F",		"30Rnd_65x39_caseless_mag", 		{2,6} },
+			{"arifle_MXM_RCO_pointer_snds_F", 	"30Rnd_65x39_caseless_mag", 		{2,6} },
+			{"arifle_MXM_Hamr_pointer_F",		"30Rnd_65x39_caseless_mag", 		{2,6} },
+			{"arifle_MXM_DMS_F", 			"30Rnd_65x39_caseless_mag", 		{2,6} },
+			*/
+		};
+
+		handgun[] =
+		{
+			{"hgun_P07_F", "16Rnd_9x21_Mag", 2}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"magazine", "HandGrenade", 2},
+			{"weapon", "Binocular"}
+		};
+
+		required[] =
+		{
+			{"pweapon*", "arifle_mx_sw_pointer_f"},
+			{"vest*", "v_platecarrier_kerry"},
+			{"weapon", "binocular"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Bravo Lead
+	class BIS_attackLead:OtherSquad
+	{
+		identity = "EPA_B_Lacey";
+		appearance = "B_Soldier_F";
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"headgear", "H_Cap_blk"},
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"}
+		};
+	};
+
+	// Charlie Lead
+	class BIS_BLU_mortar1G:Default
+	{
+		identity = "EPA_B_Mitchell";
+		appearance = "B_Soldier_TL_F";
+	};
+
+	// Commanding Officer
+	class BIS_BLU1:OtherSquad
+	{
+		identity = "EPA_B_Conway";
+		appearance = "B_Soldier_TL_F";
+	};
+
+	// Autorifleman
+	class BIS_BLU2:OtherSquad
+	{
+		identity = "EPA_B_Armstrong";
+		appearance = "B_soldier_AR_F";
+	};
+
+	// Combat Life Saver
+	class BIS_BLU3:OtherSquad
+	{
+		identity = "EPA_B_Larkin";
+		appearance = "B_medic_F";
+	};
+};

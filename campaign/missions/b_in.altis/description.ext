@@ -1,0 +1,93 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(B,B_in,X,$STR_A3_B_in_mission_name,$STR_A3_B_in_overview)
+briefing = 0;
+debriefing = 0;
+dev = "Nelson";
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity 	= "EPB_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+
+		adjustMagazines = 0;
+
+		class GearMission
+		{
+			loadGear   	= 4;		//load from description.ext, but don't touch the pool
+			saveGear   	= 5;		//saveStatus (only)
+		};
+
+		handgun[] =
+		{
+			{"hgun_P07_F", "16Rnd_9x21_Mag"}
+		};
+
+		remove[] =
+		{
+			"vest",
+			"weapons",
+			"goggles",
+			"headgear",
+			"NVGoggles",
+			{"item", "ItemRadio"},
+			{"item", "FirstAidKit"},
+			{"item", "ItemMap"}
+		};
+	};
+
+	class BIS_BLU2:Default
+	{
+		identity = "EPB_B_James";
+		appearance = "B_CTRG_soldier_M_medic_F";
+
+		primaryWeapon[] =
+		{
+			{"srifle_EBR_Hamr_pointer_F", "20Rnd_762x51_Mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"backpack",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla1_1"},
+			{"vest", "V_BandollierB_blk"},
+			{"item", "FirstAidKit"}
+		};
+	};
+
+	class BIS_BLU3:Default
+	{
+		identity = "EPB_B_CTRG1";
+		appearance = "B_Soldier_TL_F";
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_Black_Hamr_pointer_F", "30Rnd_65x39_caseless_mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_1"},
+			{"vest", "V_TacVest_khk"},
+			{"headgear", "H_Cap_khaki_specops_UK"},
+			{"backpack", "B_Bergen_sgg"},
+			{"weapon", "binocular"}
+		};
+	};
+};

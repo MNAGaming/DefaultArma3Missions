@@ -1,0 +1,56 @@
+weaponPool = 1;
+
+class Campaign
+{
+	name = $STR_A3_CampaignName;
+	firstBattle = Missions;
+	disableMP = 1;
+	enableHub = 1;
+
+	briefingName = $STR_A3_CampaignName;
+	author = $STR_A3_Bohemia_Interactive;
+	overviewPicture = "a3\Missions_F_EPA\data\img\Campaign_overview_CA.paa";
+	overviewText = $STR_A3_StageAOverview;
+
+	class MissionDefault
+	{
+		lives = -1;
+
+		lost = ;
+		end1 = ;
+		end2 = ;
+		end3 = ;
+		end4 = ;
+		end5 = ;
+		end6 = ;
+	};
+
+	class Missions
+	{
+		name = "The Beginning";
+		cutscene = ;
+		firstMission = A_in;
+		end1 = ;
+		end2 = ;
+		end3 = ;
+		end4 = ;
+		end5 = ;
+		end6 = ;
+		lost = ;
+
+		/*#define _DISABLE_DESCRIPTION	1*/
+
+		#define _CAMPAIGN 1
+
+		#include "description.fsm"
+	};
+};
+
+class CfgFunctions
+{
+	class A3_SplendidA
+	{
+		tag = "BIS";
+		#include "\A3\Missions_F_EPA\Campaign_shared\cfgFunctions.hpp"
+	};
+};

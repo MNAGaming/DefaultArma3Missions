@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m01_x10_plant_casualties_MED_0
+	{
+		text = "$STR_A3_a_m01_x10_plant_casualties_MED_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m01\x10_Plant_Casualties\a_m01_x10_plant_casualties_MED_0.ogg"};
+		actor = "BIS_medic";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

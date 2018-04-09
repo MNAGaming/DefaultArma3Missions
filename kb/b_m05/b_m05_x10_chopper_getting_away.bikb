@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_m05_x10_chopper_getting_away_KER_0
+	{
+		text = "$STR_A3_b_m05_x10_chopper_getting_away_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_m05\x10_Chopper_Getting_away\b_m05_x10_chopper_getting_away_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

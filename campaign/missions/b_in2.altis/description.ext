@@ -1,0 +1,37 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(B,B_in2,X,$STR_A3_B_in2_Mission_Name,$STR_A3_B_in2_Overview)
+
+dev = "Zipper";
+
+briefing = 0;
+debriefing = 0;
+
+class CfgDebriefing
+{
+	class B_in2_1
+	{
+		subtitle = $STR_A3_B_in2_Debriefing_B_in2_1_subtitle;
+	};
+
+	class B_in2_2
+	{
+		subtitle = $STR_A3_B_in2_Debriefing_B_in2_2_subtitle;
+	};
+
+	class B_in2_3
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_2_subtitle;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPB_B_Kerry";
+		appearance = "I_G_Story_Protagonist_F";
+	};
+};

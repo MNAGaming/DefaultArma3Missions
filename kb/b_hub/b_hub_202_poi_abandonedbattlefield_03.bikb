@@ -1,0 +1,71 @@
+class Sentences
+{
+	class b_hub_202_poi_abandonedbattlefield_03_GUA_0
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUA_0.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUA_1
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUA_1";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUA_1.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUB_0
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUB_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUB_0.ogg"};
+		actor = "BIS_AIB";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUA_2
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUA_2";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUA_2.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUA_3
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUA_3";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUA_3.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUA_4
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUA_4";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUA_4.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_202_poi_abandonedbattlefield_03_GUB_1
+	{
+		text = "$STR_A3_b_hub_202_poi_abandonedbattlefield_03_GUB_1";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\202_POI_AbandonedBattlefield_03\b_hub_202_poi_abandonedbattlefield_03_GUB_1.ogg"};
+		actor = "BIS_AIB";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

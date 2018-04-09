@@ -1,0 +1,185 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_m05,G,$STR_A3_A_m05_Mission_Name,$STR_A3_A_m05_Overview)
+
+dev = "Zipper";
+
+class CfgDebriefing
+{
+	class A_hub01_1
+	{
+		description = $STR_A3_A_m05_Debriefing_A_hub01_1_description;
+	};
+
+	class A_m05_1
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_1_subtitle;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			//special purpose
+			{"arifle_SDAR_F",			"20Rnd_556x45_UW_mag", 			{8,10} },
+
+			//grenade launcher rifles
+			{
+				"arifle_MX_GL_Holo_pointer_snds_F",
+				"30Rnd_65x39_caseless_mag", 		{5,6},
+				"1Rnd_HE_Grenade_shell", 		{2,2}
+			},
+			{
+				"arifle_MX_GL_ACO_pointer_F",
+				"30Rnd_65x39_caseless_mag", 		{5,6},
+				"1Rnd_HE_Grenade_shell", 		{2,2}
+			},
+			{
+				"arifle_Mk20_GL_MRCO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{3,4}
+			},
+			{
+				"arifle_TRG21_GL_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{3,4}
+			},
+			{
+				"arifle_TRG21_GL_MRCO_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{3,4}
+			},
+			{
+				"arifle_Mk20_GL_ACO_F",
+				"30Rnd_556x45_Stanag", 			{8,10},
+				"1Rnd_HE_Grenade_shell", 		{3,4}
+			},
+			{
+				"arifle_MX_GL_ACO_F",
+				"30Rnd_65x39_caseless_mag", 		{5,6},
+				"1Rnd_HE_Grenade_shell", 		{2,2}
+			}
+		};
+
+		handgun[] =
+		{
+			{"hgun_P07_F", "16Rnd_9x21_Mag", 2}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"headgear",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_B_survival_uniform"},
+			{"vest", "V_RebreatherB"},
+			{"goggles", "G_Diving"},
+			{"backpack", "B_AssaultPack_blk"},
+			{"magazine", "SmokeShell", 1}
+		};
+
+		required[] =
+		{
+			{"backpack*", "b_assaultpack_blk"},
+			{"pweapon*", "arifle_mx_aco_f"},
+			{"vest", "v_rebreatherb"},
+			{"uniform", "U_B_survival_uniform"},
+			{"goggles", "g_diving"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Bravo Lead
+	class BIS_attackLead:JoinedNP
+	{
+		identity = "EPA_B_Lacey";
+		appearance = "B_Soldier_F";
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"headgear", "H_Cap_blk"},
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"}
+		};
+	};
+
+	// CTRG Team Lead
+	class BIS_BLU1:OtherSquad
+	{
+		identity = "EPA_B_James";
+		appearance = "B_CTRG_soldier_M_medic_F";
+
+		remove[] =
+		{
+			"headgear",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_B_Wetsuit"},
+			{"vest", "V_RebreatherB"},
+			{"goggles", "G_Diving"},
+			{"backpack", "B_AssaultPack_blk"}
+		};
+	};
+
+	// Combat Life Saver
+	class BIS_BLU2:OtherSquad
+	{
+		identity = "EPA_B_A_m05_generate1";
+		appearance = "B_medic_F";
+
+		remove[] =
+		{
+			"headgear",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_B_survival_uniform"},
+			{"vest", "V_RebreatherB"},
+			{"goggles", "G_Diving"},
+			{"backpack", "B_AssaultPack_blk"}
+		};
+	};
+
+	// Autorifleman
+	class BIS_BLU3:OtherSquad
+	{
+		identity = "EPA_B_A_m05_generate2";
+		appearance = "B_soldier_AR_F";
+
+		remove[] =
+		{
+			"headgear",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_B_survival_uniform"},
+			{"vest", "V_RebreatherB"},
+			{"goggles", "G_Diving"},
+			{"backpack", "B_AssaultPack_blk"}
+		};
+	};
+};

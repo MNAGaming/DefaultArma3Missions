@@ -1,0 +1,26 @@
+class Sentences
+{
+	class showcase_fixedwings_x01_convoypassed_BHQ_0
+	{
+		text = "$STR_A3_showcase_fixedwings_x01_convoypassed_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\x01_ConvoyPassed\showcase_fixedwings_x01_convoypassed_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class showcase_fixedwings_x01_convoypassed_BHQ_1
+	{
+		text = "$STR_A3_showcase_fixedwings_x01_convoypassed_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\x01_ConvoyPassed\showcase_fixedwings_x01_convoypassed_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

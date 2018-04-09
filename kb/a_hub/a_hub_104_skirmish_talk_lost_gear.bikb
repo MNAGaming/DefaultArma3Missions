@@ -1,0 +1,35 @@
+class Sentences
+{
+	class a_hub_104_skirmish_talk_lost_gear_ALPA_0
+	{
+		text = "$STR_A3_a_hub_104_skirmish_talk_lost_gear_ALPA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\104_skirmish_talk_lost_gear\a_hub_104_skirmish_talk_lost_gear_ALPA_0.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_104_skirmish_talk_lost_gear_ALPB_0
+	{
+		text = "$STR_A3_a_hub_104_skirmish_talk_lost_gear_ALPB_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\104_skirmish_talk_lost_gear\a_hub_104_skirmish_talk_lost_gear_ALPB_0.ogg"};
+		actor = "BIS_AIB";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_104_skirmish_talk_lost_gear_ALPA_1
+	{
+		text = "$STR_A3_a_hub_104_skirmish_talk_lost_gear_ALPA_1";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\104_skirmish_talk_lost_gear\a_hub_104_skirmish_talk_lost_gear_ALPA_1.ogg"};
+		actor = "BIS_AIA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

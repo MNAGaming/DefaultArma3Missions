@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_in2_75_returning_KER_0
+	{
+		text = "$STR_A3_b_in2_75_returning_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in2\75_Returning\b_in2_75_returning_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

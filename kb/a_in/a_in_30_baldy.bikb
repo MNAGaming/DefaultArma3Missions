@@ -1,0 +1,62 @@
+class Sentences
+{
+	class a_in_30_baldy_ICO_0
+	{
+		text = "$STR_A3_a_in_30_baldy_ICO_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_ICO_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_30_baldy_BRA_0
+	{
+		text = "$STR_A3_a_in_30_baldy_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_BRA_0.ogg"};
+		actor = "BIS_exp";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_30_baldy_ICO_1
+	{
+		text = "$STR_A3_a_in_30_baldy_ICO_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_ICO_1.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_30_baldy_BRA_1
+	{
+		text = "$STR_A3_a_in_30_baldy_BRA_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_BRA_1.ogg"};
+		actor = "BIS_exp";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_30_baldy_BRA_2
+	{
+		text = "$STR_A3_a_in_30_baldy_BRA_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_BRA_2.ogg"};
+		actor = "BIS_exp";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_30_baldy_ICO_2
+	{
+		text = "$STR_A3_a_in_30_baldy_ICO_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in\30_Baldy\a_in_30_baldy_ICO_2.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

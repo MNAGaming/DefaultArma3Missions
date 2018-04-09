@@ -1,0 +1,125 @@
+class Sentences
+{
+	class c_in1_00_briefing_BHQ_0
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_1
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_2
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_2.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_3
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_3";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_3.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_4
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_4";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_4.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_5
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_5";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_5.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_6
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_6";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_6.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_7
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_7";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_7.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_8
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_8";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_8.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_9
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_9";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_9.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_10
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_10";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_10.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_11
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_11";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_11.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in1_00_briefing_BHQ_12
+	{
+		text = "$STR_A3_c_in1_00_briefing_BHQ_12";
+		speech[] = {"\a3\dubbing_f_epc\c_in1\00_briefing\c_in1_00_briefing_BHQ_12.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

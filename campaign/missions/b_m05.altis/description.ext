@@ -1,0 +1,312 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(B,B_m05,P,$STR_A3_B_m05_mission_name,$STR_A3_B_m05_overview)
+
+dev = "Jezuro";
+
+class CfgDebriefing
+{
+	class B_hub02_1
+	{
+		description = $STR_A3_campaign_b_m05_debrief01_desc;
+	};
+
+	class B_m05_1:B_hub02_1
+	{
+		subtitle = $STR_A3_campaign_b_m05_debrief02_sub;
+		description = $STR_A3_campaign_b_m05_debrief02_desc;
+	};
+
+	class B_m05_2:B_hub02_1
+	{
+		subtitle = $STR_A3_campaign_b_m05_debrief03_sub;
+		description = $STR_A3_campaign_b_m05_debrief03_desc;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity = "EPB_B_Kerry";
+		appearance = "I_G_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_TRG21_GL_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG21_GL_MRCO_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG21_GL_F",
+				"30Rnd_556x45_Stanag", 			{6,8},
+				"1Rnd_HE_Grenade_shell", 		{2,4}
+			},
+			{
+				"arifle_TRG20_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_Flash_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG20_Holo_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_ACO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			},
+			{
+				"arifle_TRG21_ARCO_pointer_F",
+				"30Rnd_556x45_Stanag", 			{6,8}
+			}
+		};
+
+		handgun[] =
+		{
+			{
+				"hgun_ACPC2_F",
+				"9Rnd_45ACP_Mag", 3
+			}
+		};
+
+		add[] =
+		{
+			{"magazine","HandGrenade", 2},
+			{"magazine","SmokeShell"},
+			{"magazine","SmokeShellGreen"},
+			{"magazine","Chemlight_green", 2},
+			{"backpack","B_Fieldpack_oli"},
+			{"magazine","Democharge_Remote_Mag",1,"backpack"},
+			{"item","FirstAidKit"}
+		};
+
+		required[] =
+		{
+			{"backpack*","B_Fieldpack_oli"},
+			{"magazine","democharge_remote_mag",1,"backpack"},
+			{"pweapon*", "arifle_trg21_arco_pointer_f"},
+			{"vest*", "v_tacvest_blk"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	class BIS_guerilla3:Joined
+	{
+		identity = "EPB_B_Medic";
+		appearance = "B_G_medic_F";
+	};
+
+	class BIS_guerilla5:Joined
+	{
+		identity = "EPB_B_AutoRifleman";
+		appearance = "B_G_Soldier_AR_F";
+	};
+
+	class BIS_guerilla1:Squad
+	{
+		identity = "EPB_B_Soldier";
+		appearance = "B_G_Soldier_F";
+	};
+
+	class BIS_guerilla2:Squad
+	{
+		identity = "EPB_B_Grenadier";
+		appearance = "B_G_Soldier_GL_F";
+	};
+
+	class BIS_guerilla4:Joined
+	{
+		identity = "EPB_B_Marksman";
+		appearance = "B_G_Soldier_M_F";
+	};
+
+	class BIS_guerilla6:Joined
+	{
+		identity = "EPB_B_Soldier2";
+		appearance = "B_G_Soldier_F";
+	};
+
+	// James
+	class BIS_james:JoinedNP
+	{
+		identity = "EPB_B_James";
+		appearance = "B_CTRG_soldier_M_medic_F";
+
+		primaryWeapon[] =
+		{
+			{"srifle_EBR_Hamr_pointer_F", "20Rnd_762x51_Mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"backpack",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla1_1"},
+			{"vest", "V_BandollierB_blk"},
+			{"item", "FirstAidKit"}
+		};
+	};
+
+	// Radcliffe (CTRG Team Lead)
+	class BIS_SF1:JoinedNP
+	{
+		identity = "EPB_B_CTRG1";
+		appearance = "B_Soldier_TL_F";
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_Black_Hamr_pointer_F", "30Rnd_65x39_caseless_mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_1"},
+			{"vest", "V_TacVest_khk"},
+			{"headgear", "H_Cap_khaki_specops_UK"}
+		};
+	};
+
+	// CTRG Marksman
+	class BIS_SF2:JoinedNP
+	{
+		identity = "EPB_B_CTRG2";
+		appearance = "B_soldier_M_F";
+
+		primaryWeapon[] =
+		{
+			{"arifle_MXM_Black_F", "30Rnd_65x39_caseless_mag", 7}	// 0 = this spawn {waitUntil {primaryWeapon _this == "arifle_MXM_Black_F"}; {_this addPrimaryWeaponItem _x} forEach ["optic_hamr", "acc_pointer_IR"]}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"goggles",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_leader"},
+			{"vest", "V_TacVest_camo"},
+			{"headgear", "H_Watchcap_blk"},
+			{"item", "FirstAidKit"}
+		};
+	};
+
+	// CTRG Grenadier
+	class BIS_SF3:JoinedNP
+	{
+		identity = "EPB_B_CTRG3";
+		appearance = "B_Soldier_GL_F";
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_MX_GL_Black_Hamr_pointer_F",
+				"30Rnd_65x39_caseless_mag", 7,
+				"1Rnd_HE_Grenade_shell", 4
+			}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"NVGoggles",
+			"items"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_3"},
+			{"vest", "V_TacVest_camo"},
+			{"headgear", "H_Beret_brn_SF"},
+			{"goggles", "G_tactical_clear"},
+			{"item", "FirstAidKit"}
+		};
+	};
+
+	// CTRG Medic
+	class BIS_SF4:JoinedNP
+	{
+		identity = "EPB_B_CTRG4";
+		appearance = "B_medic_F";
+
+		primaryWeapon[] =
+		{
+			{"arifle_MXC_Black_F", "30Rnd_65x39_caseless_mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items",
+			"backpack",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_3"},
+			{"vest", "V_TacVest_camo"},
+			{"backpack", "B_AssaultPack_rgr_Medic"},
+			{"goggles", "G_Shades_Red"},
+			{"headgear", "H_Cap_blk"}
+		};
+	};
+};
+
+class CfgCommunicationMenu
+{
+	class Attack;
+	class Depot:Attack
+	{
+		text = $STR_A3_campaign_b_m05_other01;
+		expression = "['RemoveTopic', ['i10_Sabotage_Headsup_Helicopter']] call BIS_fnc_InstructorFigure; ['RemoveTopic', ['i05_Sabotage_Headsup_Artillery']] call BIS_fnc_InstructorFigure; ['RemoveTopic', ['i01_Sabotage_Pick']] call BIS_fnc_InstructorFigure; [BIS_inf, BIS_suppReq_heli] call BIS_fnc_removeCommMenuItem; BIS_sabotage_depot = TRUE; _null = 'sabotage_request_artillery' spawn BIS_fnc_missionConversations;";
+		icon = "\a3\ui_f\data\map\markers\nato\o_art.paa";
+		removeAfterExpressionCall = 1;
+	};
+	class Heli:Attack
+	{
+		text = $STR_A3_campaign_b_m05_other02;
+		expression = "['RemoveTopic', ['i10_Sabotage_Headsup_Helicopter']] call BIS_fnc_InstructorFigure; ['RemoveTopic', ['i05_Sabotage_Headsup_Artillery']] call BIS_fnc_InstructorFigure; ['RemoveTopic', ['i01_Sabotage_Pick']] call BIS_fnc_InstructorFigure; [BIS_inf, BIS_suppReq_depot] call BIS_fnc_removeCommMenuItem; BIS_sabotage_heli = TRUE; _null = 'sabotage_request_helicopter' spawn BIS_fnc_missionConversations;";
+		icon = "\a3\ui_f\data\map\markers\nato\o_air.paa";
+		removeAfterExpressionCall = 1;
+	};
+};

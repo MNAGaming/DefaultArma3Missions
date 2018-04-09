@@ -1,0 +1,17 @@
+class Sentences
+{
+	class showcase_fixedwings_120_flyingfast_LEA_0
+	{
+		text = "$STR_A3_showcase_fixedwings_120_flyingfast_LEA_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\120_FlyingFast\showcase_fixedwings_120_flyingfast_LEA_0.ogg"};
+		actor = "BIS_Player";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

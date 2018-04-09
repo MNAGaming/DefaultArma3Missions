@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_out2_x03_plane_destroyed_BHQ_0
+	{
+		text = "$STR_A3_c_out2_x03_plane_destroyed_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\x03_Plane_Destroyed\c_out2_x03_plane_destroyed_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

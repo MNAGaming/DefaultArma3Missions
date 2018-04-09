@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m02_25_report_casualties_ALP_0
+	{
+		text = "$STR_A3_a_m02_25_report_casualties_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\25_Report_Casualties\a_m02_25_report_casualties_ALP_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

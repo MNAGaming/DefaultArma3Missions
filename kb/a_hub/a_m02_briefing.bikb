@@ -1,0 +1,55 @@
+class Sentences
+{
+	class REC_0
+	{
+		text = "Hours ago, enemy forces launched a sudden attack from the north.";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\a_m02\briefing_00.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class REC_1
+	{
+		text = "They're steadily advancing south, driving us into the sea.";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\a_m02\briefing_01.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class REC_2
+	{
+		text = "Bravo has been pinned down by a swift assault on their position; now, they're trapped inside the village and are in need of support.";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\a_m02\briefing_02.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class REC_3
+	{
+		text = "We're stretched thin, and need to make a stand.";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\a_m02\briefing_03.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class REC_4
+	{
+		text = "An advanced element of your team has take up a position in the valley. Regroup and report in, Alpha.";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\a_m02\briefing_04.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

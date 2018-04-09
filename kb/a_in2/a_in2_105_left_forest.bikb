@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_in2_105_left_forest_KER_0
+	{
+		text = "$STR_A3_a_in2_105_left_forest_KER_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in2\105_Left_Forest\a_in2_105_left_forest_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

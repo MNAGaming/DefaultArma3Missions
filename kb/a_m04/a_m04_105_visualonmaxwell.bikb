@@ -1,0 +1,26 @@
+class Sentences
+{
+	class a_m04_105_visualonmaxwell_KER_0
+	{
+		text = "$STR_A3_a_m04_105_visualonmaxwell_KER_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m04\105_VisualOnMaxwell\a_m04_105_visualonmaxwell_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m04_105_visualonmaxwell_ALP_0
+	{
+		text = "$STR_A3_a_m04_105_visualonmaxwell_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m04\105_VisualOnMaxwell\a_m04_105_visualonmaxwell_ALP_0.ogg"};
+		actor = "BIS_leadPlayer";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

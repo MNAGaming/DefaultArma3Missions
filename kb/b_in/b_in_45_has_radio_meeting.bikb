@@ -1,0 +1,44 @@
+class Sentences
+{
+	class b_in_45_has_radio_meeting_JAM_0
+	{
+		text = "$STR_A3_b_in_45_has_radio_meeting_JAM_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in\45_Has_Radio_Meeting\b_in_45_has_radio_meeting_JAM_0.ogg"};
+		actor = "BIS_BLU2";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in_45_has_radio_meeting_JAM_1
+	{
+		text = "$STR_A3_b_in_45_has_radio_meeting_JAM_1";
+		speech[] = {"\a3\dubbing_f_epb\b_in\45_Has_Radio_Meeting\b_in_45_has_radio_meeting_JAM_1.ogg"};
+		actor = "BIS_BLU2";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in_45_has_radio_meeting_ECH_0
+	{
+		text = "$STR_A3_b_in_45_has_radio_meeting_ECH_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in\45_Has_Radio_Meeting\b_in_45_has_radio_meeting_ECH_0.ogg"};
+		actor = "BIS_BLU3";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_in_45_has_radio_meeting_KER_0
+	{
+		text = "$STR_A3_b_in_45_has_radio_meeting_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in\45_Has_Radio_Meeting\b_in_45_has_radio_meeting_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_in_225_near_forest_ICO_0
+	{
+		text = "$STR_A3_a_in_225_near_forest_ICO_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\225_Near_Forest\a_in_225_near_forest_ICO_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

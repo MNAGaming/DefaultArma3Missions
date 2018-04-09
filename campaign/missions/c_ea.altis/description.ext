@@ -1,0 +1,83 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(C,C_EA,X,$STR_A3_C_EA_mission_name,$STR_A3_C_EA_overview)
+briefing = 0;
+debriefing = 0;
+dev = "Warka";
+
+//OSD intel override
+osdSector = "auto";
+osdLocation[] = {"",$STR_A3_NearLocation,$STR_A3_cfglocationtypes_airport0};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Default
+	{
+		identity 	= "EPC_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			"none"
+		};
+
+		handgun[] =
+		{
+			"none"
+		};
+
+		remove[] =
+		{
+			"weapons","binocular","backpack","headgear","goggles","nvgoggles"
+		};
+
+		add[] =
+		{
+			"gps",
+			{"uniform","U_B_CombatUniform_mcam"},
+			{"headgear","H_MilCap_mcamo"},
+			{"vest","V_TacVest_oli"}
+		};
+	};
+};
+
+class CfgDebriefing
+{
+	//after talking to Nikos
+	class END1
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = "";
+	};
+
+	//player wounds or kills any unit beside self or journalist
+	class END2
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = $STR_A3_C_EA_debriefingFF;
+	};
+
+	//player wounds or kills the journalist
+	class END3
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = $STR_A3_C_EA_debriefingJournalistWounded;
+	};
+
+	//player wounds or kills himself
+	class END4
+	{
+		title = $STR_A3_epilogue_end;
+		subtitle = $STR_A3_C_EA_debriefingPlayerWounded;
+	};
+};
+
+class CfgRespawnTemplates
+{
+	// Class used in respawnTemplates entry
+	class None
+	{
+		// Function or script executed upon death. Parameters passed into it are the same as are passed into onPlayerKilled.sqf file
+		onPlayerKilled = "scripts\playerKilled.sqf";
+	};
+};

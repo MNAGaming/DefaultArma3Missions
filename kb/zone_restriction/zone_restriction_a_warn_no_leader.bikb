@@ -1,0 +1,35 @@
+class Sentences
+{
+	class zone_restriction_a_warn_no_leader_KER_0
+	{
+		text = "$STR_A3_zone_restriction_a_warn_no_leader_KER_0";
+		speech[] = {"\a3\dubbing_f_epa\zone_restriction\A_Warn_No_Leader\zone_restriction_a_warn_no_leader_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class zone_restriction_a_warn_no_leader_KER_1
+	{
+		text = "$STR_A3_zone_restriction_a_warn_no_leader_KER_1";
+		speech[] = {"\a3\dubbing_f_epa\zone_restriction\A_Warn_No_Leader\zone_restriction_a_warn_no_leader_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class zone_restriction_a_warn_no_leader_KER_2
+	{
+		text = "$STR_A3_zone_restriction_a_warn_no_leader_KER_2";
+		speech[] = {"\a3\dubbing_f_epa\zone_restriction\A_Warn_No_Leader\zone_restriction_a_warn_no_leader_KER_2.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

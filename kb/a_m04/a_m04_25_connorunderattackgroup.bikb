@@ -1,0 +1,26 @@
+class Sentences
+{
+	class a_m04_25_connorunderattackgroup_ALP_0
+	{
+		text = "$STR_A3_a_m04_25_connorunderattackgroup_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m04\25_ConnorUnderAttackGroup\a_m04_25_connorunderattackgroup_ALP_0.ogg"};
+		actor = "BIS_leadPlayer";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m04_25_connorunderattackgroup_ALP_1
+	{
+		text = "$STR_A3_a_m04_25_connorunderattackgroup_ALP_1";
+		speech[] = {"\a3\dubbing_f_epa\a_m04\25_ConnorUnderAttackGroup\a_m04_25_connorunderattackgroup_ALP_1.ogg"};
+		actor = "BIS_leadPlayer";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

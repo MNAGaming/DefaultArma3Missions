@@ -1,0 +1,44 @@
+class Sentences
+{
+	class c_in2_i05_defenses_BHQ_0
+	{
+		text = "$STR_A3_c_in2_i05_defenses_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\i05_Defenses\c_in2_i05_defenses_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_i05_defenses_KER_0
+	{
+		text = "$STR_A3_c_in2_i05_defenses_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\i05_Defenses\c_in2_i05_defenses_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_i05_defenses_BHQ_1
+	{
+		text = "$STR_A3_c_in2_i05_defenses_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\i05_Defenses\c_in2_i05_defenses_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_in2_i05_defenses_BHQ_2
+	{
+		text = "$STR_A3_c_in2_i05_defenses_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epc\c_in2\i05_Defenses\c_in2_i05_defenses_BHQ_2.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

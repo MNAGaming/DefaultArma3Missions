@@ -1,0 +1,26 @@
+class Sentences
+{
+	class c_out1_45_kalichorisecure_KER_0
+	{
+		text = "$STR_A3_c_out1_45_kalichorisecure_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out1\45_kalichoriSecure\c_out1_45_kalichorisecure_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out1_45_kalichorisecure_BHQ_0
+	{
+		text = "$STR_A3_c_out1_45_kalichorisecure_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out1\45_kalichoriSecure\c_out1_45_kalichorisecure_BHQ_0.ogg"};
+		actor = "BIS_bhq";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,44 @@
+class Sentences
+{
+	class a_m02_i05_uav_scouting_BRA_0
+	{
+		text = "$STR_A3_a_m02_i05_uav_scouting_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\i05_UAV_Scouting\a_m02_i05_uav_scouting_BRA_0.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m02_i05_uav_scouting_BRA_1
+	{
+		text = "$STR_A3_a_m02_i05_uav_scouting_BRA_1";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\i05_UAV_Scouting\a_m02_i05_uav_scouting_BRA_1.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m02_i05_uav_scouting_BRA_2
+	{
+		text = "$STR_A3_a_m02_i05_uav_scouting_BRA_2";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\i05_UAV_Scouting\a_m02_i05_uav_scouting_BRA_2.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m02_i05_uav_scouting_BRA_3
+	{
+		text = "$STR_A3_a_m02_i05_uav_scouting_BRA_3";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\i05_UAV_Scouting\a_m02_i05_uav_scouting_BRA_3.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

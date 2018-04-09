@@ -1,0 +1,44 @@
+class Sentences
+{
+	class a_m03_01_start_ALP_0
+	{
+		text = "$STR_A3_a_m03_01_start_ALP_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\01_Start\a_m03_01_start_ALP_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_01_start_BRA_0
+	{
+		text = "$STR_A3_a_m03_01_start_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\01_Start\a_m03_01_start_BRA_0.ogg"};
+		actor = "BIS_attackLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_01_start_CHA_0
+	{
+		text = "$STR_A3_a_m03_01_start_CHA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\01_Start\a_m03_01_start_CHA_0.ogg"};
+		actor = "BIS_mortarG";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_m03_01_start_ALP_1
+	{
+		text = "$STR_A3_a_m03_01_start_ALP_1";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\01_Start\a_m03_01_start_ALP_1.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

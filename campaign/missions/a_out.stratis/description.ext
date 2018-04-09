@@ -1,0 +1,102 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_out,G,$STR_A3_A_out_Mission_Name,$STR_A3_A_out_Overview)
+
+dev = "Zipper";
+
+debriefing = 0;
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity = "EPA_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] =
+		{
+			//Marksman rifles
+			{"arifle_MXM_SOS_pointer_F",		"30Rnd_65x39_caseless_mag", 		{4,4} },
+			{"arifle_MXM_RCO_pointer_snds_F", 	"30Rnd_65x39_caseless_mag", 		{5,5} },
+			{"arifle_MXM_DMS_F", 			"30Rnd_65x39_caseless_mag", 		{5,5} },
+			{"arifle_MXM_Hamr_pointer_F",		"30Rnd_65x39_caseless_mag", 		{5,5} }
+		};
+
+		handgun[] =
+		{
+			{"hgun_P07_F", "16Rnd_9x21_Mag", 2}
+		};
+
+		remove[] =
+		{
+			"weapons"
+		};
+
+		add[] =
+		{
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell", 2}
+		};
+
+		required[] =
+		{
+			{"pweapon*", "arifle_mxm_hamr_pointer_f"},
+			{"vest*", "v_platecarrier_kerry"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Miller
+	class BIS_recon:OtherSquad
+	{
+		identity = "EPA_B_Miller";
+		appearance = "B_Story_SF_Captain_F";
+	};
+
+	// Bravo Lead
+	class BIS_BLU2:OtherSquad
+	{
+		identity = "EPA_B_Lacey";
+		appearance = "B_Soldier_F";
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"headgear", "H_Cap_blk"},
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"}
+		};
+	};
+
+	// Commanding Officer
+	class BIS_BLU1:OtherSquad
+	{
+		identity = "EPA_B_Conway";
+		appearance = "B_Soldier_TL_F";
+	};
+
+	// Autorifleman
+	class BIS_BLU6:OtherSquad
+	{
+		identity = "EPA_B_Armstrong";
+		appearance = "B_soldier_AR_F";
+	};
+
+	// Combat Life Saver
+	class BIS_BLU7:OtherSquad
+	{
+		identity = "EPA_B_Larkin";
+		appearance = "B_medic_F";
+	};
+
+	// Bravo Squad
+	class BIS_BLU3:OtherSquad {identity = "EPA_B_A_out_generate1"; appearance = "B_soldier_LAT_F";};
+	class BIS_BLU4:OtherSquad {identity = "EPA_B_A_out_generate2"; appearance = "B_soldier_AR_F";};
+	class BIS_BLU5:OtherSquad {identity = "EPA_B_A_out_generate3"; appearance = "B_medic_F";};
+};

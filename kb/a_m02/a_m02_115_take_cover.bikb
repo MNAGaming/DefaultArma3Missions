@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m02_115_take_cover_BRA_0
+	{
+		text = "$STR_A3_a_m02_115_take_cover_BRA_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m02\115_Take_Cover\a_m02_115_take_cover_BRA_0.ogg"};
+		actor = "BIS_bravoLead";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

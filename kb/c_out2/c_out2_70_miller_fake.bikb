@@ -1,0 +1,88 @@
+class Sentences
+{
+	class c_out2_70_miller_fake_MIL_0
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_0";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_0.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_1
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_1";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_1.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_2
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_2";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_2.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_3
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_3";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_3.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_4
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_4";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_4.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_5
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_5";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_5.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_6
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_6";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_6.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_70_miller_fake_MIL_7
+	{
+		//text = "$STR_A3_c_out2_70_miller_MIL_7";
+		text = "";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\70_Miller_Fake\c_out2_70_miller_fake_MIL_7.ogg"};
+		actor = "BIS_recon_fake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

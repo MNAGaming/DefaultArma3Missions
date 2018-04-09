@@ -1,0 +1,17 @@
+class Sentences
+{
+	class showcase_fixedwings_85_rtb_LEA_0
+	{
+		text = "$STR_A3_showcase_fixedwings_85_rtb_LEA_0";
+		speech[] = {"\a3\dubbing_f_epc\showcase_fixedwings\85_RTB\showcase_fixedwings_85_rtb_LEA_0.ogg"};
+		actor = "BIS_Player";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

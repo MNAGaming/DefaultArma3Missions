@@ -1,0 +1,89 @@
+class Sentences
+{
+	class c_out2_01_start_KER_0
+	{
+		text = "$STR_A3_c_out2_01_start_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_BHQ_0
+	{
+		text = "$STR_A3_c_out2_01_start_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_BHQ_1
+	{
+		text = "$STR_A3_c_out2_01_start_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_JAM_0
+	{
+		text = "$STR_A3_c_out2_01_start_JAM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_JAM_0.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_KER_1
+	{
+		text = "$STR_A3_c_out2_01_start_KER_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_JAM_1
+	{
+		text = "$STR_A3_c_out2_01_start_JAM_1";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_JAM_1.ogg"};
+		actor = "BIS_james";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_KER_2
+	{
+		text = "$STR_A3_c_out2_01_start_KER_2";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_KER_2.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_KER_3
+	{
+		text = "$STR_A3_c_out2_01_start_KER_3";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_KER_3.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_out2_01_start_KER_4
+	{
+		text = "$STR_A3_c_out2_01_start_KER_4";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\01_Start\c_out2_01_start_KER_4.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

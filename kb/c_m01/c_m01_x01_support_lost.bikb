@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_m01_x01_support_lost_BHQ_0
+	{
+		text = "$STR_A3_c_m01_x01_support_lost_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\x01_Support_Lost\c_m01_x01_support_lost_BHQ_0.ogg"};
+		actor = "BIS_HQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

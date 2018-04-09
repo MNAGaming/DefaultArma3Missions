@@ -1,0 +1,89 @@
+class Sentences
+{
+	class b_hub_403_welcome_b_hub03_NIK_0
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_0.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_1
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_1";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_1.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_2
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_2";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_2.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_3
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_3";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_3.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_4
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_4";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_4.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_5
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_5";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_5.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_6
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_6";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_6.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_7
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_7";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_7.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_hub_403_welcome_b_hub03_NIK_8
+	{
+		text = "$STR_A3_b_hub_403_welcome_b_hub03_NIK_8";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\403_welcome_b_hub03\b_hub_403_welcome_b_hub03_NIK_8.ogg"};
+		actor = "BIS_FullStart_B_out";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m03_55_get_clear_DEL_0
+	{
+		text = "$STR_A3_a_m03_55_get_clear_DEL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m03\55_Get_Clear\a_m03_55_get_clear_DEL_0.ogg"};
+		actor = "BIS_delta";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

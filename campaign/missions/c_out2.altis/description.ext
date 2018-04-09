@@ -1,0 +1,67 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(C,C_out2,P,$STR_A3_C_out2_mission_name,$STR_A3_C_out2_overview)
+
+dev = "Zipper";
+
+briefing = 0;
+debriefing = 0;
+
+class Characters: TemplateCharacters
+{
+	class BIS_inf: PlayerC_PersistentGear
+	{
+		identity = "EPC_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		add[] = {
+			{"uniform", "U_B_CombatUniform_mcam_vest"},
+			{"backpack", "B_AssaultPack_Kerry"},
+			{"weapon", "Binocular"}
+		};
+	};
+
+	// Autorifleman 1
+	class BIS_join1: Default
+	{
+		identity = "EPC_B_Givens";
+		appearance = "B_soldier_AR_F";
+
+		refreshIdentity	= 1;
+	};
+
+	// Missile Specialist 1
+	class BIS_join2: BIS_join1
+	{
+		identity = "EPC_B_Taylor";
+		appearance = "B_soldier_AT_F";
+	};
+
+	// Combat Life Saver 1
+	class BIS_join3: BIS_join1
+	{
+		identity = "EPB_B_Ryan";
+		appearance = "B_medic_F";
+	};
+};
+
+class CfgDebriefing
+{
+	class C_out2_1
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_1_subtitle;
+	};
+};
+
+class CfgCommunicationMenu
+{
+	class Plane
+	{
+		text = $STR_A3_CfgCommunicationMenu_Call_0;
+		expression = "execFSM 'planeControl.fsm'";
+		cursor = "\A3\ui_f\data\igui\cfg\cursors\iconCursorSupport_ca.paa";
+		icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\cas_ca.paa";
+		removeAfterExpressionCall = 1;
+	};
+};

@@ -1,0 +1,26 @@
+class Sentences
+{
+	class c_ea_x10_cardamagedidiot_JOU_0
+	{
+		text = "$STR_A3_c_ea_x10_cardamagedidiot_JOU_0";
+		speech[] = {"\a3\dubbing_f_epc\c_ea\x10_CarDamagedIdiot\c_ea_x10_cardamagedidiot_JOU_0.ogg"};
+		actor = "BIS_journalist";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_ea_x10_cardamagedidiot_KER_0
+	{
+		text = "$STR_A3_c_ea_x10_cardamagedidiot_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_ea\x10_CarDamagedIdiot\c_ea_x10_cardamagedidiot_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

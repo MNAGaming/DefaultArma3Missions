@@ -1,0 +1,26 @@
+class Sentences
+{
+	class b_m06_45_switchcamp_STA_0
+	{
+		text = "$STR_A3_b_m06_45_switchcamp_STA_0";
+		speech[] = {"\a3\dubbing_f_epb\b_m06\45_SwitchCamp\b_m06_45_switchcamp_STA_0.ogg"};
+		actor = "BIS_base";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_m06_45_switchcamp_STA_1
+	{
+		text = "$STR_A3_b_m06_45_switchcamp_STA_1";
+		speech[] = {"\a3\dubbing_f_epb\b_m06\45_SwitchCamp\b_m06_45_switchcamp_STA_1.ogg"};
+		actor = "BIS_base";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

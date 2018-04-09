@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_out_110_instructions_DEL_0
+	{
+		text = "$STR_A3_a_out_110_instructions_DEL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_out\110_Instructions\a_out_110_instructions_DEL_0.ogg"};
+		actor = "BIS_gunnerA";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

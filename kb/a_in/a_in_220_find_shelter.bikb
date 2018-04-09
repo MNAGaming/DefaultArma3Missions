@@ -1,0 +1,53 @@
+class Sentences
+{
+	class a_in_220_find_shelter_ICO_0
+	{
+		text = "$STR_A3_a_in_220_find_shelter_ICO_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\220_Find_Shelter\a_in_220_find_shelter_ICO_0.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_220_find_shelter_ICO_1
+	{
+		text = "$STR_A3_a_in_220_find_shelter_ICO_1";
+		speech[] = {"\a3\dubbing_f_epa\a_in\220_Find_Shelter\a_in_220_find_shelter_ICO_1.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_220_find_shelter_ICO_2
+	{
+		text = "$STR_A3_a_in_220_find_shelter_ICO_2";
+		speech[] = {"\a3\dubbing_f_epa\a_in\220_Find_Shelter\a_in_220_find_shelter_ICO_2.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_220_find_shelter_KER_0
+	{
+		text = "$STR_A3_a_in_220_find_shelter_KER_0";
+		speech[] = {"\a3\dubbing_f_epa\a_in\220_Find_Shelter\a_in_220_find_shelter_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_in_220_find_shelter_ICO_3
+	{
+		text = "$STR_A3_a_in_220_find_shelter_ICO_3";
+		speech[] = {"\a3\dubbing_f_epa\a_in\220_Find_Shelter\a_in_220_find_shelter_ICO_3.ogg"};
+		actor = "BIS_leader";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

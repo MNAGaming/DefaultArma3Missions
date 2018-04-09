@@ -1,0 +1,17 @@
+class Sentences
+{
+	class a_m01_60_planted_KER_0
+	{
+		text = "$STR_A3_a_m01_60_planted_KER_0";
+		speech[] = {"\a3\dubbing_f_epa\a_m01\60_Planted\a_m01_60_planted_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

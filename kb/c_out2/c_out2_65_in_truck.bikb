@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_out2_65_in_truck_KER_0
+	{
+		text = "$STR_A3_c_out2_65_in_truck_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\65_In_Truck\c_out2_65_in_truck_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

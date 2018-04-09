@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_out1_25_flyout_ABB_0
+	{
+		text = "$STR_A3_c_out1_25_flyout_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out1\25_flyOut\c_out1_25_flyout_ABB_0.ogg"};
+		actor = "BIS_heli";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

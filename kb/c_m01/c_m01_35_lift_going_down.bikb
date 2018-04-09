@@ -1,0 +1,71 @@
+class Sentences
+{
+	class c_m01_35_lift_going_down_KER_0
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_ABB_0
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_ABB_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_ABB_0.ogg"};
+		actor = "BIS_heli";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_BHQ_0
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_BHQ_0.ogg"};
+		actor = "BIS_HQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_KER_1
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_KER_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_BHQ_1
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_BHQ_1.ogg"};
+		actor = "BIS_HQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_BHQ_2
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_BHQ_2.ogg"};
+		actor = "BIS_HQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_m01_35_lift_going_down_BHQ_3
+	{
+		text = "$STR_A3_c_m01_35_lift_going_down_BHQ_3";
+		speech[] = {"\a3\dubbing_f_epc\c_m01\35_Lift_Going_Down\c_m01_35_lift_going_down_BHQ_3.ogg"};
+		actor = "BIS_HQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

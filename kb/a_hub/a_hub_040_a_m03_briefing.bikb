@@ -1,0 +1,107 @@
+class Sentences
+{
+	class a_hub_040_a_m03_briefing_MIL_0
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_0.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_1
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_1";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_1.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_2
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_2";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_2.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_3
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_3";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_3.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_4
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_4";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_4.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_5
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_5";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_5.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_6
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_6";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_6.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_7
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_7";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_7.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_8
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_8";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_8.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_9
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_9";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_9.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_040_a_m03_briefing_MIL_10
+	{
+		text = "$STR_A3_a_hub_040_a_m03_briefing_MIL_10";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\040_a_m03_briefing\a_hub_040_a_m03_briefing_MIL_10.ogg"};
+		actor = "BIS_recon";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

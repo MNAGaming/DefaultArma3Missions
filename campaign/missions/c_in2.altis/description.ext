@@ -1,0 +1,117 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(C,C_in2,G,$STR_A3_C_in2_mission_name,$STR_A3_C_in2_overview)
+
+dev = "Zipper";
+
+briefing = 0;
+debriefing = 1;
+
+class Characters: TemplateCharacters
+{
+	// Kerry
+	class BIS_inf: PlayerC_PersistentGear
+	{
+		identity = "EPC_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		primaryWeapon[] = {
+			{"arifle_MX_Hamr_pointer_F", "30Rnd_65x39_caseless_mag", 6}
+		};
+
+		handgun[] = {
+			{"hgun_P07_F", "16Rnd_9x21_Mag", 2}
+		};
+
+		remove[] = {
+			"weapons","nvgoggles"
+		};
+
+		add[] = {
+			{"uniform", "U_B_CombatUniform_mcam_vest"},
+			{"backpack", "B_AssaultPack_Kerry"},
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell"}
+		};
+
+		required[] =
+		{
+			{"backpack*", "b_assaultpack_kerry"},
+			{"vest*", "v_platecarrier_kerry"},
+			{"uniform*", "u_b_combatuniform_mcam_vest"},
+			{"headgear*", "h_helmet_kerry"},
+			{"item", "nvgoggles"},
+			{"pweapon*", "arifle_mx_hamr_pointer_f", 1},
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	// Rifleman 1
+	class BIS_FIA1: Default
+	{
+		identity = "EPC_I_Rifleman_1";
+		appearance = "B_G_Soldier_F";
+
+		remove[] = {
+			"headgear"
+		};
+
+		add[] = {
+			"NVGoggles"
+		};
+	};
+
+	// Autorifleman 1
+	class BIS_FIA2: BIS_FIA1
+	{
+		identity = "EPC_I_Autorifleman_1";
+		appearance = "B_G_Soldier_AR_F";
+	};
+
+	// Rifleman (AT) 1
+	class BIS_FIA3: BIS_FIA1
+	{
+		identity = "EPC_I_Rifleman_AT_1";
+		appearance = "B_G_Soldier_LAT_F";
+	};
+
+	// Marksman 1
+	class BIS_FIA4: BIS_FIA1
+	{
+		identity = "EPC_I_Marksman_1";
+		appearance = "B_G_Soldier_M_F";
+	};
+
+	// Combat Life Saver 1
+	class BIS_FIA5: BIS_FIA1
+	{
+		identity = "EPC_I_Combat_Life_Saver_1";
+		appearance = "B_G_medic_F";
+	};
+
+	// Grenadier 1
+	class BIS_FIA6: BIS_FIA1
+	{
+		identity = "EPC_I_Grenadier_1";
+		appearance = "B_G_Soldier_GL_F";
+	};
+
+	// Rifleman 2
+	class BIS_FIA7: BIS_FIA1
+	{
+		identity = "EPC_I_Rifleman_2";
+		appearance = "B_G_Soldier_F";
+	};
+};
+
+class CfgDebriefing
+{
+	class C_m01_1
+	{
+		description = $STR_A3_C_in2_Debriefing_C_m01_1_description;
+	};
+};

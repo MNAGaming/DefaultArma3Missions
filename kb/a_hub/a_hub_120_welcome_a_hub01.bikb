@@ -1,0 +1,116 @@
+class Sentences
+{
+	class a_hub_120_welcome_a_hub01_DEL_0
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_0";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_0.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_1
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_1";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_1.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_2
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_2";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_2.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_3
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_3";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_3.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_4
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_4";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_4.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_5
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_5";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_5.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_6
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_6";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_6.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_7
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_7";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_7.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_8
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_8";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_8.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_9
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_9";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_9.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_10
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_10";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_10.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class a_hub_120_welcome_a_hub01_DEL_11
+	{
+		text = "$STR_A3_a_hub_120_welcome_a_hub01_DEL_11";
+		speech[] = {"\a3\dubbing_f_epa\a_hub\120_welcome_a_hub01\a_hub_120_welcome_a_hub01_DEL_11.ogg"};
+		actor = "BIS_guide";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

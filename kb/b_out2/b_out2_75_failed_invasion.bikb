@@ -1,0 +1,116 @@
+class Sentences
+{
+	class b_out2_75_failed_invasion_BHQ_0
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_0";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_0.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_KER_0
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_1
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_1";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_1.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_2
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_2";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_2.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_KER_1
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_KER_1";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_KER_1.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_3
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_3";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_3.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_KER_2
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_KER_2";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_KER_2.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_4
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_4";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_4.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_5
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_5";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_5.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_KER_3
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_KER_3";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_KER_3.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_6
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_6";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_6.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class b_out2_75_failed_invasion_BHQ_7
+	{
+		text = "$STR_A3_b_out2_75_failed_invasion_BHQ_7";
+		speech[] = {"\a3\dubbing_f_epb\b_out2\75_Failed_Invasion\b_out2_75_failed_invasion_BHQ_7.ogg"};
+		actor = "BIS_BHQ";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

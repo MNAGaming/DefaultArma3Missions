@@ -1,0 +1,26 @@
+class Sentences
+{
+	class c_eb_35_natojoin_KER_0
+	{
+		text = "$STR_A3_c_eb_35_natojoin_KER_0";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\35_NATOJoin\c_eb_35_natojoin_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+	class c_eb_35_natojoin_MEM_0
+	{
+		text = "$STR_A3_c_eb_35_natojoin_MEM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_eb\35_NATOJoin\c_eb_35_natojoin_MEM_0.ogg"};
+		actor = "BIS_NATO_01";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

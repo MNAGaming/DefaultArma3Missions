@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_out2_13_plane_fired_MEM_0
+	{
+		text = "$STR_A3_c_out2_13_plane_fired_MEM_0";
+		speech[] = {"\a3\dubbing_f_epc\c_out2\13_Plane_Fired\c_out2_13_plane_fired_MEM_0.ogg"};
+		actor = "BIS_planeFake";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

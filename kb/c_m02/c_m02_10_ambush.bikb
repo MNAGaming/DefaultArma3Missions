@@ -1,0 +1,17 @@
+class Sentences
+{
+	class c_m02_10_ambush_ABA_0
+	{
+		text = "$STR_A3_c_m02_10_ambush_ABA_0";
+		speech[] = {"\a3\dubbing_f_epc\c_m02\10_ambush\c_m02_10_ambush_ABA_0.ogg"};
+		actor = "BIS_leaderConvoy";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

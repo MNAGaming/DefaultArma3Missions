@@ -1,0 +1,176 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(B,B_m02_1,P,$STR_A3_B_m02_1_mission_name,$STR_A3_B_m02_1_overview)
+debriefing = 0;
+dev = "Nelson";
+
+class CfgDebriefing
+{
+	class B_m02_2_1
+	{
+		subtitle 		= "";
+		description 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class B_m02_2_2
+	{
+		subtitle 		= "";
+		description 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class B_m02_1_1:B_m02_2_1
+	{
+		description 		= "";
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	class BIS_inf:Player
+	{
+		identity 	= "EPB_B_Kerry";
+		appearance 	= "I_G_Story_Protagonist_F";
+
+		class GearMission
+		{
+			loadGear   	= 2;		//loadStatus, but don't touch the pool
+			saveGear   	= 5;		//saveStatus (only)
+		};
+
+		primaryWeapon[] =
+		{
+			{
+				"arifle_Katiba_GL_ACO_pointer_snds_F",
+			    	"30Rnd_65x39_caseless_green",  {4,8},
+			    	"1Rnd_HE_Grenade_shell",  {1,6}
+			},
+			{
+			    	"arifle_TRG21_GL_MRCO_F",
+			    	"30Rnd_556x45_Stanag",   {4,8},
+			    	"1Rnd_HE_Grenade_shell", {2,6}
+			},
+			{
+				"arifle_MXM_DMS_F",
+				"30Rnd_65x39_caseless_mag",   {2,6}
+			},
+			{
+				"arifle_TRG20_ACO_Flash_F",
+				"30Rnd_556x45_Stanag", {6, 8}
+			}
+		};
+
+		handgun[] =
+		{
+			{
+				"hgun_ACPC2_F",
+				"9Rnd_45ACP_Mag", {3, 4}
+			}
+		};
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_M"},
+			{"backpack", "B_Carryall_Base"},
+			{"magazine", "DemoCharge_Remote_Mag", 3},
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell", 2},
+			{"weapon", "Binocular"}
+		};
+
+		remove[] =
+		{
+			"NVGoggles",
+			"NVGoggles_INDEP"
+		};
+
+		required[] =
+		{
+			{"pweapon*", "arifle_trg20_aco_flash_f"},
+			{"vest*", "v_tacvest_blk"},
+			{"backpack*", "b_carryall_base"},
+			{"magazine", "democharge_remote_mag", 2, "backpack"},
+			{"item","map",1,"equip"},
+			{"item","radio",1,"equip"}
+		};
+	};
+
+	class BIS_guerrillaA:OtherSquad
+	{
+		identity 	= "EPB_I_Guerrilla_A";
+		appearance 	= "B_G_Soldier_F";
+	};
+
+	class BIS_medic:JoinedNP
+	{
+		identity 	= "EPB_B_Medic";
+		appearance 	= "B_G_medic_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_M"}
+		};
+	};
+
+	class BIS_autorifleman:JoinedNP
+	{
+		identity 	= "EPB_B_AutoRifleman";
+		appearance 	= "B_G_Soldier_AR_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_H_MG"}
+		};
+	};
+
+	class BIS_antitank:JoinedNP
+	{
+		identity 	= "EPB_B_AntiTank";
+		appearance 	= "B_G_Soldier_LAT_F";
+
+		add[] =
+		{
+			{"item", "muzzle_snds_acp"},
+			{"item", "muzzle_snds_M"}
+		};
+	};
+
+	class BIS_recon:OtherSquad
+	{
+		identity = "EPB_B_Miller";
+		appearance = "I_G_Story_SF_Captain_F";
+
+		class HubPresence
+		{
+			briefing 	= 1;
+			assemble 	= 0;
+			return   	= 1;
+		};
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_Black_Hamr_pointer_F", "30Rnd_65x39_caseless_mag", 7}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"items"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_BG_Guerilla2_3"},
+			{"vest", "V_TacVest_blk"},
+			{"item", "FirstAidKit"}
+		};
+	};
+};

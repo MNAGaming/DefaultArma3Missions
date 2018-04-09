@@ -1,0 +1,83 @@
+dev = "Nelson";
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+SET_MISSION_META(C,C_out1,X,$STR_A3_C_out1_mission_name,$STR_A3_C_out1_overview)
+
+class CfgDebriefing {
+	class C_out2_1 {
+		description 		= $STR_A3_Campaign_C_out1_Debriefing_WIN1;
+		subtitle 		= "";
+		backgroundPicture 	= "";
+		picture 		= "";
+		pictureColor[] 		= {1,0,1,1};
+	};
+
+	class C_out1_1 : C_out2_1 {
+		description 		= $STR_A3_Campaign_C_out1_Debriefing_FAIL1;
+	};
+};
+
+class Characters: TemplateCharacters
+{
+	class BIS_inf:PlayerC_DefaultGear
+	{
+		identity = "EPC_B_Kerry";
+		appearance = "B_Story_Protagonist_F";
+
+		add[] =
+		{
+			{"uniform", "U_B_CombatUniform_mcam_vest"},
+			{"backpack", "B_AssaultPack_Kerry"},
+			{"item", "B_UavTerminal"},
+			{"magazine", "DemoCharge_Remote_Mag", 1},
+			{"magazine", "HandGrenade", 2},
+			{"magazine", "SmokeShell", 2},
+			{"weapon", "Laserdesignator"},
+			{"item", "Laserbatteries"}
+		};
+	};
+
+	class BIS_medic:Default
+	{
+		identity 	= "EPC_B_Ryan";
+		appearance 	= "B_medic_F";
+
+		refreshIdentity	= 1;
+	};
+
+	class BIS_assistantAutorifleman:BIS_medic
+	{
+		identity 	= "EPC_B_Givens";
+		appearance 	= "B_soldier_AAR_F";
+	};
+
+	class BIS_autorifleman:BIS_medic
+	{
+		identity 	= "EPC_B_Taylor";
+		appearance 	= "B_soldier_AR_F";
+	};
+
+	class BIS_rifleman:BIS_medic
+	{
+		identity 	= "EPC_B_McKendrick";
+		appearance 	= "B_Soldier_F";
+	};
+
+	class BIS_ammoBearer:BIS_medic
+	{
+		identity 	= "EPC_B_Martinez";
+		appearance 	= "B_Soldier_A_F";
+	};
+
+	class BIS_riflemanAt:BIS_medic
+	{
+		identity 	= "EPC_B_Nichols";
+		appearance 	= "B_soldier_LAT_F";
+	};
+
+	class BIS_marksman:BIS_medic
+	{
+		identity 	= "EPC_B_Mitchell";
+		appearance 	= "B_soldier_M_F";
+	};
+};

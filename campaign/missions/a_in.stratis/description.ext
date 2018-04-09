@@ -1,0 +1,184 @@
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+#include "\A3\Missions_F_EPA\Campaign_shared\cfgCharacters.hpp"
+
+SET_MISSION_META(A,A_in,G,$STR_A3_A_in_Mission_Name,$STR_A3_A_in_Overview)
+
+dev = "Zipper";
+
+briefing = 0;
+debriefing = 0;
+
+class CfgDebriefing
+{
+	class A_in_1
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_1_subtitle;
+	};
+
+	class A_in_2
+	{
+		subtitle = $STR_A3_A_in_Debriefing_A_in_2_subtitle;
+	};
+};
+
+class Characters:TemplateCharacters
+{
+	// Player
+	class BIS_inf:Player
+	{
+		identity 	= "EPA_B_Kerry";
+		appearance 	= "B_Story_Protagonist_F";
+
+		adjustMagazines = 0;
+
+		class GearMission
+		{
+			loadGear   	= 4;		//load from description.ext, but don't touch the pool
+			saveGear   	= 5;		//saveStatus (only)
+		};
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_F", "30Rnd_65x39_caseless_mag", 5}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"headgear",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"magazine", "HandGrenade"},
+			{"goggles", "G_Shades_Black"}
+		};
+	};
+
+	// Miller
+	class BIS_recon:Default
+	{
+		identity = "EPA_B_Miller";
+		appearance = "B_Story_SF_Captain_F";
+	};
+
+	// Exposition dude
+	class BIS_exp:Default
+	{
+		identity = "EPA_B_Lacey";
+		appearance = "B_Soldier_F";
+
+		handgun[] = {"none"};
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"headgear", "H_Cap_headphones"},
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"}
+		};
+	};
+
+	// MacKinnon
+	class BIS_officer:Default
+	{
+		identity = "EPA_B_MacKinnon";
+		appearance = "B_officer_F";
+
+		remove[] =
+		{
+			"weapons",
+			"items"
+		};
+
+		add[] =
+		{
+			{"vest", "V_PlateCarrier1_rgr"}
+		};
+	};
+
+	// Helicopter guide
+	class BIS_guide:Default
+	{
+		appearance = "B_Soldier_F";
+
+		primaryWeapon[] =
+		{
+			{"arifle_MX_F", "30Rnd_65x39_caseless_mag"}
+		};
+
+		remove[] =
+		{
+			"weapons",
+			"headgear",
+			"vest",
+			"NVGoggles"
+		};
+
+		add[] =
+		{
+			{"uniform", "U_B_CombatUniform_mcam_tshirt"},
+			{"goggles", "G_Combat"}
+		};
+	};
+
+	// Future CO
+	class BIS_futureLead:Default
+	{
+		identity = "EPA_B_Conway";
+		appearance = "B_Soldier_TL_F";
+
+		handgun[] = {"none"};
+
+		remove[] =
+		{
+			"NVGoggles"
+		};
+	};
+
+	// Future Medic
+	class BIS_futureMedic:Default
+	{
+		identity = "EPA_B_Larkin";
+		appearance = "B_medic_F";
+
+		handgun[] = {"none"};
+	};
+
+	// Future Autorifleman
+	class BIS_campDriver1:Default
+	{
+		identity = "EPA_B_Armstrong";
+		appearance = "B_soldier_AR_F";
+
+		handgun[] = {"none"};
+	};
+
+	// Future Grenadier
+	class BIS_campCrew1:Default
+	{
+		identity = "EPA_B_Nichols";
+		appearance = "B_Soldier_GL_F";
+
+		handgun[] = {"none"};
+	};
+
+	// Charlie Lead
+	class BIS_charlieLead:Default
+	{
+		identity = "EPA_B_Mitchell";
+		appearance = "B_Soldier_TL_F";
+
+		handgun[] = {"none"};
+
+		remove[] =
+		{
+			"headgear",
+			"NVGoggles"
+		};
+	};
+};

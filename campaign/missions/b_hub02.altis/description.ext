@@ -1,0 +1,13 @@
+#include "\A3\Missions_F_EPA\Campaign_shared\Hubs\cfgB_hub02.hpp"
+#include "\A3\Missions_F_EPA\Campaign\Missions\description.hpp"
+
+SET_MISSION_META(B,B_hub02,X,$STR_A3_B_hub02_mission_name,$STR_A3_B_hub02_overview)
+
+dev = "Warka";
+
+onLoadMissionTime = 0;
+
+briefing = 0;
+debriefing = 0;
+
+disableRandomization[] = {"AllVehicles"};

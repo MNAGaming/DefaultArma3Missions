@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_in_x20_head_down_JAM_0
+	{
+		text = "$STR_A3_b_in_x20_head_down_JAM_0";
+		speech[] = {"\a3\dubbing_f_epb\b_in\x20_Head_Down\b_in_x20_head_down_JAM_0.ogg"};
+		actor = "BIS_BLU2";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};

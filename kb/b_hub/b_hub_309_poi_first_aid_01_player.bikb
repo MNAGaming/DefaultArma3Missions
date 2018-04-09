@@ -1,0 +1,17 @@
+class Sentences
+{
+	class b_hub_309_poi_first_aid_01_player_KER_0
+	{
+		text = "$STR_A3_b_hub_309_poi_first_aid_01_player_KER_0";
+		speech[] = {"\a3\dubbing_f_epb\b_hub\309_POI_First_Aid_01_Player\b_hub_309_poi_first_aid_01_player_KER_0.ogg"};
+		actor = "BIS_inf";
+		variant = "";
+		variantText = "";
+		class Arguments {};
+	};
+
+};
+class Arguments{};
+class Special{};
+startWithVocal[] = {hour};
+startWithConsonant[] = {europe, university};
